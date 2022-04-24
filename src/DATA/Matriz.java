@@ -41,10 +41,6 @@ public class Matriz {
          return true;
      }
 
-     
-    public void resulverMatriz() {
-
-    }
 
     public void convertirStringAInt() {
 
