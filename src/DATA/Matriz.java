@@ -36,6 +36,12 @@ public class Matriz {
      *
      *
      */
+
+     public static boolean estaEnFila(){
+         return true;
+     }
+
+     
     public void resulverMatriz() {
 
     }
