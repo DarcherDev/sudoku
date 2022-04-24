@@ -41,6 +41,9 @@ public class Matriz {
          return true;
      }
 
+     public static boolean estaEnColumna(){
+        return true;
+    }
 
     public void convertirStringAInt() {
 
