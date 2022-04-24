@@ -48,7 +48,6 @@ public class Matriz {
 
     public void cargarMatriz() {
         convertirStringAInt();
-        resulverMatriz();
     }
 
     public int[][] getMatriz() {
