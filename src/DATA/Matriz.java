@@ -28,24 +28,86 @@ public class Matriz {
     public Matriz(int[][] matriz) {
     }
 
-    /**
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     *
-     */
-    public static boolean estaEnFila() {
-        return true;
+  
+    public static boolean estaEnFila(int matriz[][],int numero, int fila){
+        //esto es para verificar si ya esta ese numero en la fila
+        for(int i=0; i<SIZE;i++){
+           if(matriz[fila][i]==numero){
+               return true;
+           }
+        }
+        return false;
     }
 
-    public static boolean estaEnColumna() {
-        return true;
+    public static boolean estaEnColumna(int matriz[][],int numero,int columna){
+        //esto es para verificar si ya esta ese numero en la columna
+        for(int i=0; i<SIZE;i++){     public static boolean estaEnFila(int matriz[][],int numero, int fila){
+        //esto es para verificar si ya esta ese numero en la fila
+        for(int i=0; i<SIZE;i++){
+           if(matriz[fila][i]==numero){
+               return true;
+           }
+        }
+        return false;
     }
+
+    public static boolean estaEnColumna(int matriz[][],int numero,int columna){
+        //esto es para verificar si ya esta ese numero en la columna
+        for(int i=0; i<SIZE;i++){
+           if(matriz[i][columna]==numero){
+               return true;
+           }
+        }
+       return false;
+   }
+
+   public static boolean estaEnel3x3(int matriz[][],int numero, int columna, int fila ){
+       //esto es para verificar si ya esta ese numero en alguno de los cuadrantes de 3x3
+       int fila3x3= fila - fila %3;
+       int columna3x3= columna - columna%3;
+       for(int i=fila3x3; i<fila3x3+3;i++){
+           for(int j=columna3x3;j<columna3x3+3;j++){
+               if(matriz[i][j]== numero){
+                   return true;
+               }
+
+           }
+
+       }
+
+       return false;
+   }
+
+   public static boolean PosicionCorrecta(int matriz[][],int numero, int columna, int fila){
+       //para saber si el numero colocado es correcto
+       return !estaEnFila(matriz, numero, fila)&& !estaEnColumna(matriz, numero, columna)
+       && !estaEnel3x3(matriz, numero, columna, fila);
+   }
+
+   public static boolean validarSudoku(int matriz[][]){
+       /*aqui se va validar si el sudoku resuelto esta correcto, de lo contrario
+       lo ira corrigiendo uno a uno hasta que llegue con la respuesta correcta
+       */
+       for(int fila=0; fila<SIZE;fila++){
+           for(int columna=0; columna<SIZE;columna++){
+               if(matriz[fila][columna]==0){
+                   for(int numero=1;numero<= SIZE;numero++){
+                      if( PosicionCorrecta(matriz, numero, columna, fila)){
+                           matriz[fila][columna] = numero;
+                           if(validarSudoku(matriz)){
+                               return true;
+                           }else{
+                               matriz[fila][columna]=0;
+                           }
+                      }
+                   }
+                   return false;
+               }
+           }
+       }
+       return true;
+   }
+
 
     /**
      * motodo que transforma la matriz tipo String
