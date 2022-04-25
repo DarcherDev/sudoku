@@ -47,19 +47,34 @@ public class Matriz {
         return true;
     }
 
+    /**
+     * motodo que transforma la matriz tipo String
+     * a una tipo Int
+     */
     public void convertirStringAInt() {
         String guion = "-";
+        //fors que recorren la matriz
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
-                if (SudokuString[i][j].equals(guion)) {
-                    this.matriz[i][j] = 0;
-                } else {
-                    this.matriz[i][j] = Integer.parseInt(SudokuString[i][j]);
+                try {
+                    //preguntamos si en la posicion es igual a "-"
+                    if (SudokuString[i][j].equals(guion)) {
+                        //si es true remplazamos el - por 0
+                        this.matriz[i][j] = 0;
+                    } else {
+                        //si es false, asinamos el valor de la matriz
+                        this.matriz[i][j] = Integer.parseInt(SudokuString[i][j]);
+                    }
+                } catch (NumberFormatException e) {
                 }
             }
         }
     }
 
+    /**
+     * metodo que cargar el archivo txt para la matriz tipo String
+     * y llama al meotodo convertirStringAInt()
+     */
     public void cargarMatriz() {
         try {
             this.cargarMatriz.Leer();
