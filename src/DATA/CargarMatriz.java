@@ -42,15 +42,15 @@ public class CargarMatriz {
                 String fila[] = linea.split("");
                 for (int i = 0; i < fila.length; i++) {
                     SudokuString[numlinea][i] = fila[i];
-                    System.out.println(SudokuString[numlinea][i]);
+//                    System.out.println(SudokuString[numlinea][i]);
                 }
                 numlinea++;
             }
             linea = lector.readLine();
             // ya temenos la matriz en string y la pasamos a entero para empezar a resolver
-            
+
             sudoku.setSudokuString(SudokuString);
-            
+
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -6,6 +6,9 @@
 package GUI;
 
 import DATA.Matriz;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -21,7 +24,6 @@ public class Interfaz extends javax.swing.JFrame {
     public Interfaz() {
         initComponents();
         sudoku = new Matriz();
-
         this.setVisible(true);
     }
 
@@ -1538,7 +1540,9 @@ public class Interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_txt3_3KeyTyped
 
     private void btnCargarMatrizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargarMatrizActionPerformed
+
         sudoku.cargarMatriz();
+
     }//GEN-LAST:event_btnCargarMatrizActionPerformed
 
     private void txt7_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_5KeyTyped

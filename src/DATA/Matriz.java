@@ -1,5 +1,6 @@
 package DATA;
 
+import java.io.IOException;
 import static java.lang.Integer.SIZE;
 
 /*
@@ -15,7 +16,7 @@ public class Matriz {
 
     private int SIZE = 9;
     private int matriz[][] = new int[SIZE][SIZE];
-    private String SudokuString[][] = new String[9][9];
+    private String SudokuString[][] = new String[SIZE][SIZE];
     private CargarMatriz cargarMatriz;
 
     public Matriz() {
@@ -36,21 +37,41 @@ public class Matriz {
      *
      *
      */
+    public static boolean estaEnFila() {
+        return true;
+    }
 
-     public static boolean estaEnFila(){
-         return true;
-     }
-
-     public static boolean estaEnColumna(){
+    public static boolean estaEnColumna() {
         return true;
     }
 
     public void convertirStringAInt() {
-
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                if (SudokuString[i][j].equals('-')) {
+                    matriz[i][j] = 0;
+                } else {
+                    matriz[i][j] = Integer.parseInt(SudokuString[i][j]);
+                }
+            }
+        }
     }
 
     public void cargarMatriz() {
+        try {
+            cargarMatriz.Leer();
+        } catch (IOException ex) {
+        }
         convertirStringAInt();
+    }
+
+    public void toStringMatriz() {
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                System.out.print("{" + SudokuString[i][j] + "}");
+            }
+            System.out.println("");
+        }
     }
 
     public int[][] getMatriz() {
