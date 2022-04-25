@@ -15,12 +15,14 @@ import static java.lang.Integer.SIZE;
 public class Matriz {
 
     private int SIZE = 9;
-    private int matriz[][] = new int[SIZE][SIZE];
-    private String SudokuString[][] = new String[SIZE][SIZE];
+    private int matriz[][];
+    private String SudokuString[][];
     private CargarMatriz cargarMatriz;
 
     public Matriz() {
-        cargarMatriz = new CargarMatriz(this);
+        this.cargarMatriz = new CargarMatriz(this);
+        this.matriz = new int[SIZE][SIZE];
+        this.SudokuString = new String[SIZE][SIZE];
     }
 
     public Matriz(int[][] matriz) {
@@ -46,12 +48,13 @@ public class Matriz {
     }
 
     public void convertirStringAInt() {
+        String guion = "-";
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
-                if (SudokuString[i][j].equals('-')) {
-                    matriz[i][j] = 0;
+                if (SudokuString[i][j].equals(guion)) {
+                    this.matriz[i][j] = 0;
                 } else {
-                    matriz[i][j] = Integer.parseInt(SudokuString[i][j]);
+                    this.matriz[i][j] = Integer.parseInt(SudokuString[i][j]);
                 }
             }
         }
@@ -59,7 +62,7 @@ public class Matriz {
 
     public void cargarMatriz() {
         try {
-            cargarMatriz.Leer();
+            this.cargarMatriz.Leer();
         } catch (IOException ex) {
         }
         convertirStringAInt();
@@ -68,7 +71,7 @@ public class Matriz {
     public void toStringMatriz() {
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
-                System.out.print("{" + SudokuString[i][j] + "}");
+                System.out.print("{" + matriz[i][j] + "}");
             }
             System.out.println("");
         }
