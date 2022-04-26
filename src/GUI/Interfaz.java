@@ -41,95 +41,95 @@ public class Interfaz extends javax.swing.JFrame {
         btnIntentar = new javax.swing.JButton();
         btnCargarMatriz = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        txt1_2 = new javax.swing.JTextField();
-        txt1_1 = new javax.swing.JTextField();
-        txt1_3 = new javax.swing.JTextField();
-        txt2_1 = new javax.swing.JTextField();
-        txt2_2 = new javax.swing.JTextField();
-        txt2_3 = new javax.swing.JTextField();
-        txt3_1 = new javax.swing.JTextField();
-        txt3_2 = new javax.swing.JTextField();
-        txt3_3 = new javax.swing.JTextField();
-        jPanel9 = new javax.swing.JPanel();
-        txt7_5 = new javax.swing.JTextField();
-        txt7_4 = new javax.swing.JTextField();
-        txt7_6 = new javax.swing.JTextField();
-        txt8_4 = new javax.swing.JTextField();
-        txt8_5 = new javax.swing.JTextField();
-        txt8_6 = new javax.swing.JTextField();
-        txt9_4 = new javax.swing.JTextField();
-        txt9_5 = new javax.swing.JTextField();
-        txt9_6 = new javax.swing.JTextField();
-        jPanel8 = new javax.swing.JPanel();
-        txt4_2 = new javax.swing.JTextField();
-        txt4_1 = new javax.swing.JTextField();
-        txt4_3 = new javax.swing.JTextField();
-        txt5_1 = new javax.swing.JTextField();
-        txt5_2 = new javax.swing.JTextField();
-        txt5_3 = new javax.swing.JTextField();
-        txt6_1 = new javax.swing.JTextField();
-        txt6_2 = new javax.swing.JTextField();
-        txt6_3 = new javax.swing.JTextField();
-        jPanel7 = new javax.swing.JPanel();
-        txt7_8 = new javax.swing.JTextField();
-        txt7_7 = new javax.swing.JTextField();
-        txt7_9 = new javax.swing.JTextField();
-        txt8_7 = new javax.swing.JTextField();
-        txt8_8 = new javax.swing.JTextField();
-        txt8_9 = new javax.swing.JTextField();
-        txt9_7 = new javax.swing.JTextField();
-        txt9_8 = new javax.swing.JTextField();
-        txt9_9 = new javax.swing.JTextField();
-        jPanel6 = new javax.swing.JPanel();
-        txt1_8 = new javax.swing.JTextField();
-        txt1_7 = new javax.swing.JTextField();
-        txt1_9 = new javax.swing.JTextField();
-        txt2_7 = new javax.swing.JTextField();
-        txt2_8 = new javax.swing.JTextField();
-        txt2_9 = new javax.swing.JTextField();
-        txt3_7 = new javax.swing.JTextField();
-        txt3_8 = new javax.swing.JTextField();
-        txt3_9 = new javax.swing.JTextField();
-        jPanel5 = new javax.swing.JPanel();
-        txt4_8 = new javax.swing.JTextField();
-        txt4_7 = new javax.swing.JTextField();
-        txt4_9 = new javax.swing.JTextField();
-        txt5_7 = new javax.swing.JTextField();
-        txt5_8 = new javax.swing.JTextField();
-        txt5_9 = new javax.swing.JTextField();
-        txt6_7 = new javax.swing.JTextField();
-        txt6_8 = new javax.swing.JTextField();
-        txt6_9 = new javax.swing.JTextField();
-        jPanel4 = new javax.swing.JPanel();
-        txt1_5 = new javax.swing.JTextField();
-        txt1_4 = new javax.swing.JTextField();
-        txt1_6 = new javax.swing.JTextField();
-        txt2_4 = new javax.swing.JTextField();
-        txt2_5 = new javax.swing.JTextField();
-        txt2_6 = new javax.swing.JTextField();
-        txt3_4 = new javax.swing.JTextField();
-        txt3_5 = new javax.swing.JTextField();
-        txt3_6 = new javax.swing.JTextField();
-        jPanel3 = new javax.swing.JPanel();
-        txt7_2 = new javax.swing.JTextField();
-        txt7_1 = new javax.swing.JTextField();
-        txt7_3 = new javax.swing.JTextField();
-        txt8_1 = new javax.swing.JTextField();
-        txt8_2 = new javax.swing.JTextField();
-        txt8_3 = new javax.swing.JTextField();
-        txt9_1 = new javax.swing.JTextField();
-        txt9_2 = new javax.swing.JTextField();
-        txt9_3 = new javax.swing.JTextField();
+        jTextField1_1 = new javax.swing.JTextField();
+        jTextField1_2 = new javax.swing.JTextField();
+        jTextField1_3 = new javax.swing.JTextField();
+        jTextField1_4 = new javax.swing.JTextField();
+        jTextField1_5 = new javax.swing.JTextField();
+        jTextField1_6 = new javax.swing.JTextField();
+        jTextField1_7 = new javax.swing.JTextField();
+        jTextField1_8 = new javax.swing.JTextField();
+        jTextField1_9 = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
-        txt4_5 = new javax.swing.JTextField();
-        txt4_4 = new javax.swing.JTextField();
-        txt4_6 = new javax.swing.JTextField();
-        txt5_4 = new javax.swing.JTextField();
-        txt5_5 = new javax.swing.JTextField();
-        txt5_6 = new javax.swing.JTextField();
-        txt6_4 = new javax.swing.JTextField();
-        txt6_5 = new javax.swing.JTextField();
-        txt6_6 = new javax.swing.JTextField();
+        jTextField2_1 = new javax.swing.JTextField();
+        jTextField2_2 = new javax.swing.JTextField();
+        jTextField2_3 = new javax.swing.JTextField();
+        jTextField2_4 = new javax.swing.JTextField();
+        jTextField2_5 = new javax.swing.JTextField();
+        jTextField2_6 = new javax.swing.JTextField();
+        jTextField2_7 = new javax.swing.JTextField();
+        jTextField2_8 = new javax.swing.JTextField();
+        jTextField2_9 = new javax.swing.JTextField();
+        jPanel3 = new javax.swing.JPanel();
+        jTextField3_1 = new javax.swing.JTextField();
+        jTextField3_2 = new javax.swing.JTextField();
+        jTextField3_3 = new javax.swing.JTextField();
+        jTextField3_4 = new javax.swing.JTextField();
+        jTextField3_5 = new javax.swing.JTextField();
+        jTextField3_6 = new javax.swing.JTextField();
+        jTextField3_7 = new javax.swing.JTextField();
+        jTextField3_8 = new javax.swing.JTextField();
+        jTextField3_9 = new javax.swing.JTextField();
+        jPanel4 = new javax.swing.JPanel();
+        jTextField4_1 = new javax.swing.JTextField();
+        jTextField4_2 = new javax.swing.JTextField();
+        jTextField4_3 = new javax.swing.JTextField();
+        jTextField4_4 = new javax.swing.JTextField();
+        jTextField4_5 = new javax.swing.JTextField();
+        jTextField4_6 = new javax.swing.JTextField();
+        jTextField4_7 = new javax.swing.JTextField();
+        jTextField4_8 = new javax.swing.JTextField();
+        jTextField4_9 = new javax.swing.JTextField();
+        jPanel5 = new javax.swing.JPanel();
+        jTextField5_1 = new javax.swing.JTextField();
+        jTextField5_2 = new javax.swing.JTextField();
+        jTextField5_3 = new javax.swing.JTextField();
+        jTextField5_4 = new javax.swing.JTextField();
+        jTextField5_5 = new javax.swing.JTextField();
+        jTextField5_6 = new javax.swing.JTextField();
+        jTextField5_7 = new javax.swing.JTextField();
+        jTextField5_8 = new javax.swing.JTextField();
+        jTextField5_9 = new javax.swing.JTextField();
+        jPanel6 = new javax.swing.JPanel();
+        jTextField6_1 = new javax.swing.JTextField();
+        jTextField6_2 = new javax.swing.JTextField();
+        jTextField6_3 = new javax.swing.JTextField();
+        jTextField6_4 = new javax.swing.JTextField();
+        jTextField6_5 = new javax.swing.JTextField();
+        jTextField6_6 = new javax.swing.JTextField();
+        jTextField6_7 = new javax.swing.JTextField();
+        jTextField6_8 = new javax.swing.JTextField();
+        jTextField6_9 = new javax.swing.JTextField();
+        jPanel7 = new javax.swing.JPanel();
+        jTextField7_1 = new javax.swing.JTextField();
+        jTextField7_2 = new javax.swing.JTextField();
+        jTextField7_3 = new javax.swing.JTextField();
+        jTextField7_4 = new javax.swing.JTextField();
+        jTextField7_5 = new javax.swing.JTextField();
+        jTextField7_6 = new javax.swing.JTextField();
+        jTextField7_7 = new javax.swing.JTextField();
+        jTextField7_8 = new javax.swing.JTextField();
+        jTextField7_9 = new javax.swing.JTextField();
+        jPanel8 = new javax.swing.JPanel();
+        jTextField8_1 = new javax.swing.JTextField();
+        jTextField8_2 = new javax.swing.JTextField();
+        jTextField8_3 = new javax.swing.JTextField();
+        jTextField8_4 = new javax.swing.JTextField();
+        jTextField8_5 = new javax.swing.JTextField();
+        jTextField8_6 = new javax.swing.JTextField();
+        jTextField8_7 = new javax.swing.JTextField();
+        jTextField8_8 = new javax.swing.JTextField();
+        jTextField8_9 = new javax.swing.JTextField();
+        jPanel9 = new javax.swing.JPanel();
+        jTextField9_1 = new javax.swing.JTextField();
+        jTextField9_2 = new javax.swing.JTextField();
+        jTextField9_3 = new javax.swing.JTextField();
+        jTextField9_4 = new javax.swing.JTextField();
+        jTextField9_5 = new javax.swing.JTextField();
+        jTextField9_6 = new javax.swing.JTextField();
+        jTextField9_7 = new javax.swing.JTextField();
+        jTextField9_8 = new javax.swing.JTextField();
+        jTextField9_9 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -169,84 +169,84 @@ public class Interfaz extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
 
-        txt1_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_2.setBorder(null);
-        txt1_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_2.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_1.setBorder(null);
+        jTextField1_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_2KeyTyped(evt);
+                jTextField1_1KeyTyped(evt);
             }
         });
 
-        txt1_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_1.setBorder(null);
-        txt1_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_1.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_2.setBorder(null);
+        jTextField1_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_1KeyTyped(evt);
+                jTextField1_2KeyTyped(evt);
             }
         });
 
-        txt1_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_3.setBorder(null);
-        txt1_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_3.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_3.setBorder(null);
+        jTextField1_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_3KeyTyped(evt);
+                jTextField1_3KeyTyped(evt);
             }
         });
 
-        txt2_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_1.setBorder(null);
-        txt2_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_1.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_4.setBorder(null);
+        jTextField1_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_4.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_1KeyTyped(evt);
+                jTextField1_4KeyTyped(evt);
             }
         });
 
-        txt2_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_2.setBorder(null);
-        txt2_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_2.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_5.setBorder(null);
+        jTextField1_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_5.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_2KeyTyped(evt);
+                jTextField1_5KeyTyped(evt);
             }
         });
 
-        txt2_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_3.setBorder(null);
-        txt2_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_3.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_6.setBorder(null);
+        jTextField1_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_6.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_3KeyTyped(evt);
+                jTextField1_6KeyTyped(evt);
             }
         });
 
-        txt3_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_1.setBorder(null);
-        txt3_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_1.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_7.setBorder(null);
+        jTextField1_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_7.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_1KeyTyped(evt);
+                jTextField1_7KeyTyped(evt);
             }
         });
 
-        txt3_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_2.setBorder(null);
-        txt3_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_2.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_8.setBorder(null);
+        jTextField1_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_8.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_2KeyTyped(evt);
+                jTextField1_8KeyTyped(evt);
             }
         });
 
-        txt3_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_3.setBorder(null);
-        txt3_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_3.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField1_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1_9.setBorder(null);
+        jTextField1_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField1_9.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_3KeyTyped(evt);
+                jTextField1_9KeyTyped(evt);
             }
         });
 
@@ -255,1078 +255,142 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(txt1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt1_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jTextField1_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(txt2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField1_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField1_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jTextField1_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(txt3_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField1_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField1_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt3_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jTextField1_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt1_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField1_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, 0)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField1_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField1_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField1_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, 0)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt3_1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt3_3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField1_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField1_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField1_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        txt7_5.setBackground(new java.awt.Color(120, 255, 121));
-        txt7_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt7_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_5.setBorder(null);
-        txt7_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_5.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_1.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_1.setBorder(null);
+        jTextField2_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_5KeyTyped(evt);
+                jTextField2_1KeyTyped(evt);
             }
         });
 
-        txt7_4.setBackground(new java.awt.Color(120, 255, 121));
-        txt7_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt7_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_4.setBorder(null);
-        txt7_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_4.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_2.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_2.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_2.setBorder(null);
+        jTextField2_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_4KeyTyped(evt);
+                jTextField2_2KeyTyped(evt);
             }
         });
 
-        txt7_6.setBackground(new java.awt.Color(120, 255, 121));
-        txt7_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt7_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_6.setBorder(null);
-        txt7_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_6.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_3.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_3.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_3.setBorder(null);
+        jTextField2_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_6KeyTyped(evt);
+                jTextField2_3KeyTyped(evt);
             }
         });
 
-        txt8_4.setBackground(new java.awt.Color(120, 255, 121));
-        txt8_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt8_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_4.setBorder(null);
-        txt8_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_4.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_4.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_4.setBorder(null);
+        jTextField2_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_4.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_4KeyTyped(evt);
+                jTextField2_4KeyTyped(evt);
             }
         });
 
-        txt8_5.setBackground(new java.awt.Color(120, 255, 121));
-        txt8_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt8_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_5.setBorder(null);
-        txt8_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_5.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_5.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_5.setBorder(null);
+        jTextField2_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_5.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_5KeyTyped(evt);
+                jTextField2_5KeyTyped(evt);
             }
         });
 
-        txt8_6.setBackground(new java.awt.Color(120, 255, 121));
-        txt8_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt8_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_6.setBorder(null);
-        txt8_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_6.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_6.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_6.setBorder(null);
+        jTextField2_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_6.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_6KeyTyped(evt);
+                jTextField2_6KeyTyped(evt);
             }
         });
 
-        txt9_4.setBackground(new java.awt.Color(120, 255, 121));
-        txt9_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt9_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_4.setBorder(null);
-        txt9_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_4.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_7.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_7.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_7.setBorder(null);
+        jTextField2_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_7.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_4KeyTyped(evt);
+                jTextField2_7KeyTyped(evt);
             }
         });
 
-        txt9_5.setBackground(new java.awt.Color(120, 255, 121));
-        txt9_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt9_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_5.setBorder(null);
-        txt9_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_5.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_8.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_8.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_8.setBorder(null);
+        jTextField2_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_8.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_5KeyTyped(evt);
+                jTextField2_8KeyTyped(evt);
             }
         });
 
-        txt9_6.setBackground(new java.awt.Color(120, 255, 121));
-        txt9_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt9_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_6.setBorder(null);
-        txt9_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_6.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTextField2_9.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField2_9.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField2_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2_9.setBorder(null);
+        jTextField2_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField2_9.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_6KeyTyped(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addComponent(txt7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt7_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addComponent(txt8_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt8_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt8_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addComponent(txt9_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt9_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt9_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt7_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt8_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt8_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt8_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt9_4, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt9_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt9_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-
-        txt4_2.setBackground(new java.awt.Color(120, 255, 121));
-        txt4_2.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt4_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_2.setBorder(null);
-        txt4_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_2KeyTyped(evt);
-            }
-        });
-
-        txt4_1.setBackground(new java.awt.Color(120, 255, 121));
-        txt4_1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt4_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_1.setBorder(null);
-        txt4_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_1KeyTyped(evt);
-            }
-        });
-
-        txt4_3.setBackground(new java.awt.Color(120, 255, 121));
-        txt4_3.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt4_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_3.setBorder(null);
-        txt4_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_3KeyTyped(evt);
-            }
-        });
-
-        txt5_1.setBackground(new java.awt.Color(120, 255, 121));
-        txt5_1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt5_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_1.setBorder(null);
-        txt5_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_1KeyTyped(evt);
-            }
-        });
-
-        txt5_2.setBackground(new java.awt.Color(120, 255, 121));
-        txt5_2.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt5_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_2.setBorder(null);
-        txt5_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_2KeyTyped(evt);
-            }
-        });
-
-        txt5_3.setBackground(new java.awt.Color(120, 255, 121));
-        txt5_3.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt5_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_3.setBorder(null);
-        txt5_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_3KeyTyped(evt);
-            }
-        });
-
-        txt6_1.setBackground(new java.awt.Color(120, 255, 121));
-        txt6_1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt6_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_1.setBorder(null);
-        txt6_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_1KeyTyped(evt);
-            }
-        });
-
-        txt6_2.setBackground(new java.awt.Color(120, 255, 121));
-        txt6_2.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt6_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_2.setBorder(null);
-        txt6_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_2KeyTyped(evt);
-            }
-        });
-
-        txt6_3.setBackground(new java.awt.Color(120, 255, 121));
-        txt6_3.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt6_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_3.setBorder(null);
-        txt6_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_3KeyTyped(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(txt4_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt4_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(txt5_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(txt6_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt4_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt4_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt5_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt6_1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
-
-        txt7_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_8.setBorder(null);
-        txt7_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_8KeyTyped(evt);
-            }
-        });
-
-        txt7_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_7.setBorder(null);
-        txt7_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_7KeyTyped(evt);
-            }
-        });
-
-        txt7_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_9.setBorder(null);
-        txt7_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_9KeyTyped(evt);
-            }
-        });
-
-        txt8_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_7.setBorder(null);
-        txt8_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_7KeyTyped(evt);
-            }
-        });
-
-        txt8_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_8.setBorder(null);
-        txt8_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_8KeyTyped(evt);
-            }
-        });
-
-        txt8_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_9.setBorder(null);
-        txt8_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_9KeyTyped(evt);
-            }
-        });
-
-        txt9_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_7.setBorder(null);
-        txt9_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_7KeyTyped(evt);
-            }
-        });
-
-        txt9_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_8.setBorder(null);
-        txt9_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_8KeyTyped(evt);
-            }
-        });
-
-        txt9_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_9.setBorder(null);
-        txt9_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_9KeyTyped(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addComponent(txt7_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt7_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt7_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addComponent(txt8_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt8_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt8_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addComponent(txt9_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt9_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt9_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt7_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt7_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt7_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt8_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt8_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt8_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt9_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt9_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt9_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
-
-        txt1_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_8.setBorder(null);
-        txt1_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_8KeyTyped(evt);
-            }
-        });
-
-        txt1_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_7.setBorder(null);
-        txt1_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_7KeyTyped(evt);
-            }
-        });
-
-        txt1_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_9.setBorder(null);
-        txt1_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_9KeyTyped(evt);
-            }
-        });
-
-        txt2_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_7.setBorder(null);
-        txt2_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_7KeyTyped(evt);
-            }
-        });
-
-        txt2_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_8.setBorder(null);
-        txt2_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_8KeyTyped(evt);
-            }
-        });
-
-        txt2_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_9.setBorder(null);
-        txt2_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_9KeyTyped(evt);
-            }
-        });
-
-        txt3_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_7.setBorder(null);
-        txt3_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_7KeyTyped(evt);
-            }
-        });
-
-        txt3_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_8.setBorder(null);
-        txt3_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_8KeyTyped(evt);
-            }
-        });
-
-        txt3_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_9.setBorder(null);
-        txt3_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_9KeyTyped(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(txt1_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt1_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt1_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(txt2_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt2_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt2_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(txt3_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt3_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt3_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt1_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt1_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt1_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt2_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt2_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt2_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt3_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt3_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt3_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-
-        txt4_8.setBackground(new java.awt.Color(120, 255, 121));
-        txt4_8.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt4_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_8.setBorder(null);
-        txt4_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_8KeyTyped(evt);
-            }
-        });
-
-        txt4_7.setBackground(new java.awt.Color(120, 255, 121));
-        txt4_7.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt4_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_7.setBorder(null);
-        txt4_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_7KeyTyped(evt);
-            }
-        });
-
-        txt4_9.setBackground(new java.awt.Color(120, 255, 121));
-        txt4_9.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt4_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_9.setBorder(null);
-        txt4_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_9KeyTyped(evt);
-            }
-        });
-
-        txt5_7.setBackground(new java.awt.Color(120, 255, 121));
-        txt5_7.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt5_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_7.setBorder(null);
-        txt5_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_7KeyTyped(evt);
-            }
-        });
-
-        txt5_8.setBackground(new java.awt.Color(120, 255, 121));
-        txt5_8.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt5_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_8.setBorder(null);
-        txt5_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_8KeyTyped(evt);
-            }
-        });
-
-        txt5_9.setBackground(new java.awt.Color(120, 255, 121));
-        txt5_9.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt5_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_9.setBorder(null);
-        txt5_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_9KeyTyped(evt);
-            }
-        });
-
-        txt6_7.setBackground(new java.awt.Color(120, 255, 121));
-        txt6_7.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt6_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_7.setBorder(null);
-        txt6_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_7KeyTyped(evt);
-            }
-        });
-
-        txt6_8.setBackground(new java.awt.Color(120, 255, 121));
-        txt6_8.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt6_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_8.setBorder(null);
-        txt6_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_8.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_8KeyTyped(evt);
-            }
-        });
-
-        txt6_9.setBackground(new java.awt.Color(120, 255, 121));
-        txt6_9.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt6_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_9.setBorder(null);
-        txt6_9.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_9KeyTyped(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addComponent(txt4_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt4_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt4_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addComponent(txt5_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt5_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt5_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addComponent(txt6_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt6_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt6_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt4_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt4_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt4_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt5_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt5_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt5_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt6_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt6_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt6_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-
-        txt1_5.setBackground(new java.awt.Color(120, 255, 121));
-        txt1_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt1_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_5.setBorder(null);
-        txt1_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_5.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_5KeyTyped(evt);
-            }
-        });
-
-        txt1_4.setBackground(new java.awt.Color(120, 255, 121));
-        txt1_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt1_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_4.setBorder(null);
-        txt1_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_4.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_4KeyTyped(evt);
-            }
-        });
-
-        txt1_6.setBackground(new java.awt.Color(120, 255, 121));
-        txt1_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt1_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt1_6.setBorder(null);
-        txt1_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt1_6.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt1_6KeyTyped(evt);
-            }
-        });
-
-        txt2_4.setBackground(new java.awt.Color(120, 255, 121));
-        txt2_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt2_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_4.setBorder(null);
-        txt2_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_4.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_4KeyTyped(evt);
-            }
-        });
-
-        txt2_5.setBackground(new java.awt.Color(120, 255, 121));
-        txt2_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt2_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_5.setBorder(null);
-        txt2_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_5.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_5KeyTyped(evt);
-            }
-        });
-
-        txt2_6.setBackground(new java.awt.Color(120, 255, 121));
-        txt2_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt2_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt2_6.setBorder(null);
-        txt2_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt2_6.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt2_6KeyTyped(evt);
-            }
-        });
-
-        txt3_4.setBackground(new java.awt.Color(120, 255, 121));
-        txt3_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt3_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_4.setBorder(null);
-        txt3_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_4.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_4KeyTyped(evt);
-            }
-        });
-
-        txt3_5.setBackground(new java.awt.Color(120, 255, 121));
-        txt3_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt3_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_5.setBorder(null);
-        txt3_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_5.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_5KeyTyped(evt);
-            }
-        });
-
-        txt3_6.setBackground(new java.awt.Color(120, 255, 121));
-        txt3_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
-        txt3_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3_6.setBorder(null);
-        txt3_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt3_6.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt3_6KeyTyped(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addComponent(txt1_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt1_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt1_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addComponent(txt2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt2_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addComponent(txt3_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt3_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt3_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt1_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt1_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt1_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt2_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt3_4, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt3_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt3_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
-
-        txt7_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_2.setBorder(null);
-        txt7_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_2KeyTyped(evt);
-            }
-        });
-
-        txt7_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_1.setBorder(null);
-        txt7_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_1KeyTyped(evt);
-            }
-        });
-
-        txt7_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt7_3.setBorder(null);
-        txt7_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt7_3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt7_3KeyTyped(evt);
-            }
-        });
-
-        txt8_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_1.setBorder(null);
-        txt8_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_1KeyTyped(evt);
-            }
-        });
-
-        txt8_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_2.setBorder(null);
-        txt8_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_2KeyTyped(evt);
-            }
-        });
-
-        txt8_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt8_3.setBorder(null);
-        txt8_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt8_3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt8_3KeyTyped(evt);
-            }
-        });
-
-        txt9_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_1.setBorder(null);
-        txt9_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_1KeyTyped(evt);
-            }
-        });
-
-        txt9_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_2.setBorder(null);
-        txt9_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_2KeyTyped(evt);
-            }
-        });
-
-        txt9_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt9_3.setBorder(null);
-        txt9_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt9_3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt9_3KeyTyped(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(txt7_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt7_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt7_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(txt8_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt8_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt8_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(txt9_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt9_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(txt9_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt7_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt7_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt7_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt8_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt8_2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt8_3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt9_1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt9_2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt9_3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
-
-        txt4_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_5.setBorder(null);
-        txt4_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_5.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_5KeyTyped(evt);
-            }
-        });
-
-        txt4_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_4.setBorder(null);
-        txt4_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_4.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_4KeyTyped(evt);
-            }
-        });
-
-        txt4_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt4_6.setBorder(null);
-        txt4_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt4_6.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt4_6KeyTyped(evt);
-            }
-        });
-
-        txt5_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_4.setBorder(null);
-        txt5_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_4.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_4KeyTyped(evt);
-            }
-        });
-
-        txt5_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_5.setBorder(null);
-        txt5_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_5.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_5KeyTyped(evt);
-            }
-        });
-
-        txt5_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt5_6.setBorder(null);
-        txt5_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt5_6.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt5_6KeyTyped(evt);
-            }
-        });
-
-        txt6_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_4.setBorder(null);
-        txt6_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_4.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_4KeyTyped(evt);
-            }
-        });
-
-        txt6_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_5.setBorder(null);
-        txt6_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_5.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_5KeyTyped(evt);
-            }
-        });
-
-        txt6_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt6_6.setBorder(null);
-        txt6_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        txt6_6.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txt6_6KeyTyped(evt);
+                jTextField2_9KeyTyped(evt);
             }
         });
 
@@ -1335,41 +399,977 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(txt4_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt4_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt4_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jTextField2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(txt5_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt5_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt5_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jTextField2_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(txt6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField2_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt6_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField2_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(txt6_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jTextField2_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt4_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt4_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt4_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, 0)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt5_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt5_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt5_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField2_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, 0)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txt6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt6_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt6_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField2_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField2_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField2_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
+
+        jTextField3_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_1.setBorder(null);
+        jTextField3_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_1KeyTyped(evt);
+            }
+        });
+
+        jTextField3_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_2.setBorder(null);
+        jTextField3_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_2KeyTyped(evt);
+            }
+        });
+
+        jTextField3_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_3.setBorder(null);
+        jTextField3_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_3KeyTyped(evt);
+            }
+        });
+
+        jTextField3_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_4.setBorder(null);
+        jTextField3_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_4KeyTyped(evt);
+            }
+        });
+
+        jTextField3_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_5.setBorder(null);
+        jTextField3_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_5KeyTyped(evt);
+            }
+        });
+
+        jTextField3_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_6.setBorder(null);
+        jTextField3_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_6KeyTyped(evt);
+            }
+        });
+
+        jTextField3_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_7.setBorder(null);
+        jTextField3_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_7KeyTyped(evt);
+            }
+        });
+
+        jTextField3_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_8.setBorder(null);
+        jTextField3_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_8KeyTyped(evt);
+            }
+        });
+
+        jTextField3_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3_9.setBorder(null);
+        jTextField3_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField3_9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3_9KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jTextField3_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField3_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jTextField3_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField3_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField3_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jTextField3_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField3_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField3_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField3_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField3_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField3_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        jTextField4_1.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_1.setBorder(null);
+        jTextField4_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_1KeyTyped(evt);
+            }
+        });
+
+        jTextField4_2.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_2.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_2.setBorder(null);
+        jTextField4_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_2KeyTyped(evt);
+            }
+        });
+
+        jTextField4_3.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_3.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_3.setBorder(null);
+        jTextField4_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_3KeyTyped(evt);
+            }
+        });
+
+        jTextField4_4.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_4.setBorder(null);
+        jTextField4_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_4KeyTyped(evt);
+            }
+        });
+
+        jTextField4_5.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_5.setBorder(null);
+        jTextField4_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_5KeyTyped(evt);
+            }
+        });
+
+        jTextField4_6.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_6.setBorder(null);
+        jTextField4_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_6KeyTyped(evt);
+            }
+        });
+
+        jTextField4_7.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_7.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_7.setBorder(null);
+        jTextField4_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_7KeyTyped(evt);
+            }
+        });
+
+        jTextField4_8.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_8.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_8.setBorder(null);
+        jTextField4_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_8KeyTyped(evt);
+            }
+        });
+
+        jTextField4_9.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField4_9.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField4_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4_9.setBorder(null);
+        jTextField4_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField4_9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4_9KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addComponent(jTextField4_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField4_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addComponent(jTextField4_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField4_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField4_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addComponent(jTextField4_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField4_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField4_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField4_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField4_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField4_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
+
+        jTextField5_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_1.setBorder(null);
+        jTextField5_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_1KeyTyped(evt);
+            }
+        });
+
+        jTextField5_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_2.setBorder(null);
+        jTextField5_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_2KeyTyped(evt);
+            }
+        });
+
+        jTextField5_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_3.setBorder(null);
+        jTextField5_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_3KeyTyped(evt);
+            }
+        });
+
+        jTextField5_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_4.setBorder(null);
+        jTextField5_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_4KeyTyped(evt);
+            }
+        });
+
+        jTextField5_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_5.setBorder(null);
+        jTextField5_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_5KeyTyped(evt);
+            }
+        });
+
+        jTextField5_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_6.setBorder(null);
+        jTextField5_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_6KeyTyped(evt);
+            }
+        });
+
+        jTextField5_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_7.setBorder(null);
+        jTextField5_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_7KeyTyped(evt);
+            }
+        });
+
+        jTextField5_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_8.setBorder(null);
+        jTextField5_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_8KeyTyped(evt);
+            }
+        });
+
+        jTextField5_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5_9.setBorder(null);
+        jTextField5_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField5_9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5_9KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jTextField5_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jTextField5_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField5_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField5_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jTextField5_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField5_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField5_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField5_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField5_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField5_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
+        jTextField6_1.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_1.setBorder(null);
+        jTextField6_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_1KeyTyped(evt);
+            }
+        });
+
+        jTextField6_2.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_2.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_2.setBorder(null);
+        jTextField6_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_2KeyTyped(evt);
+            }
+        });
+
+        jTextField6_3.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_3.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_3.setBorder(null);
+        jTextField6_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_3KeyTyped(evt);
+            }
+        });
+
+        jTextField6_4.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_4.setBorder(null);
+        jTextField6_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_4KeyTyped(evt);
+            }
+        });
+
+        jTextField6_5.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_5.setBorder(null);
+        jTextField6_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_5KeyTyped(evt);
+            }
+        });
+
+        jTextField6_6.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_6.setBorder(null);
+        jTextField6_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_6KeyTyped(evt);
+            }
+        });
+
+        jTextField6_7.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_7.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_7.setBorder(null);
+        jTextField6_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_7KeyTyped(evt);
+            }
+        });
+
+        jTextField6_8.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_8.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_8.setBorder(null);
+        jTextField6_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField6_8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_8KeyTyped(evt);
+            }
+        });
+
+        jTextField6_9.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField6_9.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField6_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6_9.setBorder(null);
+        jTextField6_9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6_9KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jTextField6_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jTextField6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField6_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField6_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jTextField6_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField6_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField6_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField6_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField6_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField6_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField6_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField6_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField6_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
+
+        jTextField7_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_1.setBorder(null);
+        jTextField7_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_1KeyTyped(evt);
+            }
+        });
+
+        jTextField7_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_2.setBorder(null);
+        jTextField7_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_2KeyTyped(evt);
+            }
+        });
+
+        jTextField7_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_3.setBorder(null);
+        jTextField7_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_3KeyTyped(evt);
+            }
+        });
+
+        jTextField7_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_4.setBorder(null);
+        jTextField7_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_4KeyTyped(evt);
+            }
+        });
+
+        jTextField7_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_5.setBorder(null);
+        jTextField7_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_5KeyTyped(evt);
+            }
+        });
+
+        jTextField7_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_6.setBorder(null);
+        jTextField7_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_6KeyTyped(evt);
+            }
+        });
+
+        jTextField7_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_7.setBorder(null);
+        jTextField7_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_7KeyTyped(evt);
+            }
+        });
+
+        jTextField7_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_8.setBorder(null);
+        jTextField7_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_8KeyTyped(evt);
+            }
+        });
+
+        jTextField7_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7_9.setBorder(null);
+        jTextField7_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField7_9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7_9KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addComponent(jTextField7_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField7_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField7_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addComponent(jTextField7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField7_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addComponent(jTextField7_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField7_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField7_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField7_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField7_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField7_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField7_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField7_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField7_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField7_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField7_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        jTextField8_1.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_1.setBorder(null);
+        jTextField8_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_1KeyTyped(evt);
+            }
+        });
+
+        jTextField8_2.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_2.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_2.setBorder(null);
+        jTextField8_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_2KeyTyped(evt);
+            }
+        });
+
+        jTextField8_3.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_3.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_3.setBorder(null);
+        jTextField8_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_3KeyTyped(evt);
+            }
+        });
+
+        jTextField8_4.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_4.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_4.setBorder(null);
+        jTextField8_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_4KeyTyped(evt);
+            }
+        });
+
+        jTextField8_5.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_5.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_5.setBorder(null);
+        jTextField8_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_5KeyTyped(evt);
+            }
+        });
+
+        jTextField8_6.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_6.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_6.setBorder(null);
+        jTextField8_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_6KeyTyped(evt);
+            }
+        });
+
+        jTextField8_7.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_7.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_7.setBorder(null);
+        jTextField8_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_7KeyTyped(evt);
+            }
+        });
+
+        jTextField8_8.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_8.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_8.setBorder(null);
+        jTextField8_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_8KeyTyped(evt);
+            }
+        });
+
+        jTextField8_9.setBackground(new java.awt.Color(120, 255, 121));
+        jTextField8_9.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextField8_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8_9.setBorder(null);
+        jTextField8_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField8_9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8_9KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(jTextField8_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField8_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField8_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(jTextField8_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField8_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField8_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(jTextField8_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField8_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField8_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField8_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField8_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField8_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField8_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField8_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField8_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField8_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField8_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField8_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(120, 255, 121)));
+
+        jTextField9_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_1.setBorder(null);
+        jTextField9_1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_1KeyTyped(evt);
+            }
+        });
+
+        jTextField9_2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_2.setBorder(null);
+        jTextField9_2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_2KeyTyped(evt);
+            }
+        });
+
+        jTextField9_3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_3.setBorder(null);
+        jTextField9_3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_3KeyTyped(evt);
+            }
+        });
+
+        jTextField9_4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_4.setBorder(null);
+        jTextField9_4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_4KeyTyped(evt);
+            }
+        });
+
+        jTextField9_5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_5.setBorder(null);
+        jTextField9_5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_5KeyTyped(evt);
+            }
+        });
+
+        jTextField9_6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_6.setBorder(null);
+        jTextField9_6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_6KeyTyped(evt);
+            }
+        });
+
+        jTextField9_7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_7.setBorder(null);
+        jTextField9_7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_7KeyTyped(evt);
+            }
+        });
+
+        jTextField9_8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_8.setBorder(null);
+        jTextField9_8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_8KeyTyped(evt);
+            }
+        });
+
+        jTextField9_9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9_9.setBorder(null);
+        jTextField9_9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTextField9_9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField9_9KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addComponent(jTextField9_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField9_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField9_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addComponent(jTextField9_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField9_5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField9_6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addComponent(jTextField9_7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField9_8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTextField9_9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField9_1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField9_2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField9_3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField9_4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField9_5, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField9_6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField9_7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField9_8, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField9_9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1377,70 +1377,66 @@ public class Interfaz extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 455, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addContainerGap()
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGap(0, 0, 0)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(0, 0, 0)
-                            .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(0, 0, 0)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, 0)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGap(18, 18, 18)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(btnCargarMatriz)
-                        .addComponent(btnReiniciar)
-                        .addComponent(btnStart)
-                        .addComponent(btnIntentar))
-                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGap(0, 0, 0)
+                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(0, 0, 0)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnCargarMatriz)
+                    .addComponent(btnReiniciar)
+                    .addComponent(btnStart)
+                    .addComponent(btnIntentar))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 373, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addContainerGap()
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(btnCargarMatriz)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(btnReiniciar)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(btnStart))
-                                .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(28, 28, 28)
-                                    .addComponent(btnIntentar))
-                                .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGap(0, 0, 0)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnCargarMatriz)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnReiniciar)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnStart))
+                            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(28, 28, 28)
+                                .addComponent(btnIntentar))
+                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, 0)
+                        .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -1459,86 +1455,86 @@ public class Interfaz extends javax.swing.JFrame {
         this.sudoku.toStringMatriz();
     }//GEN-LAST:event_btnIntentarActionPerformed
 
-    private void txt1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_2KeyTyped
+    private void jTextField1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_2.getText().length() == 1) {
+        if (jTextField1_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_2KeyTyped
+    }//GEN-LAST:event_jTextField1_2KeyTyped
 
-    private void txt1_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_1KeyTyped
+    private void jTextField1_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_1.getText().length() == 1) {
+        if (jTextField1_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_1KeyTyped
+    }//GEN-LAST:event_jTextField1_1KeyTyped
 
-    private void txt1_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_3KeyTyped
+    private void jTextField1_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_3.getText().length() == 1) {
+        if (jTextField1_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_3KeyTyped
+    }//GEN-LAST:event_jTextField1_3KeyTyped
 
-    private void txt2_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_1KeyTyped
+    private void jTextField1_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_1.getText().length() == 1) {
+        if (jTextField1_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_1KeyTyped
+    }//GEN-LAST:event_jTextField1_4KeyTyped
 
-    private void txt2_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_2KeyTyped
+    private void jTextField1_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_2.getText().length() == 1) {
+        if (jTextField1_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_2KeyTyped
+    }//GEN-LAST:event_jTextField1_5KeyTyped
 
-    private void txt2_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_3KeyTyped
+    private void jTextField1_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_3.getText().length() == 1) {
+        if (jTextField1_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_3KeyTyped
+    }//GEN-LAST:event_jTextField1_6KeyTyped
 
-    private void txt3_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_1KeyTyped
+    private void jTextField1_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_1.getText().length() == 1) {
+        if (jTextField1_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_1KeyTyped
+    }//GEN-LAST:event_jTextField1_7KeyTyped
 
-    private void txt3_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_2KeyTyped
+    private void jTextField1_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_2.getText().length() == 1) {
+        if (jTextField1_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_2KeyTyped
+    }//GEN-LAST:event_jTextField1_8KeyTyped
 
-    private void txt3_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_3KeyTyped
+    private void jTextField1_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_3.getText().length() == 1) {
+        if (jTextField1_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_3KeyTyped
+    }//GEN-LAST:event_jTextField1_9KeyTyped
 
     private void btnCargarMatrizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargarMatrizActionPerformed
 
@@ -1546,657 +1542,657 @@ public class Interfaz extends javax.swing.JFrame {
 
     }//GEN-LAST:event_btnCargarMatrizActionPerformed
 
-    private void txt7_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_5KeyTyped
+    private void jTextField8_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_5.getText().length() == 1) {
+        if (jTextField8_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_5KeyTyped
+    }//GEN-LAST:event_jTextField8_2KeyTyped
 
-    private void txt7_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_4KeyTyped
+    private void jTextField8_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_4.getText().length() == 1) {
+        if (jTextField8_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_4KeyTyped
+    }//GEN-LAST:event_jTextField8_1KeyTyped
 
-    private void txt7_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_6KeyTyped
+    private void jTextField8_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_6.getText().length() == 1) {
+        if (jTextField8_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_6KeyTyped
+    }//GEN-LAST:event_jTextField8_3KeyTyped
 
-    private void txt8_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_4KeyTyped
+    private void jTextField8_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_4.getText().length() == 1) {
+        if (jTextField8_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_4KeyTyped
+    }//GEN-LAST:event_jTextField8_4KeyTyped
 
-    private void txt8_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_5KeyTyped
+    private void jTextField8_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_5.getText().length() == 1) {
+        if (jTextField8_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_5KeyTyped
+    }//GEN-LAST:event_jTextField8_5KeyTyped
 
-    private void txt8_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_6KeyTyped
+    private void jTextField8_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_6.getText().length() == 1) {
+        if (jTextField8_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_6KeyTyped
+    }//GEN-LAST:event_jTextField8_6KeyTyped
 
-    private void txt9_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_4KeyTyped
+    private void jTextField8_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_4.getText().length() == 1) {
+        if (jTextField8_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_4KeyTyped
+    }//GEN-LAST:event_jTextField8_7KeyTyped
 
-    private void txt9_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_5KeyTyped
+    private void jTextField8_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_5.getText().length() == 1) {
+        if (jTextField8_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_5KeyTyped
+    }//GEN-LAST:event_jTextField8_8KeyTyped
 
-    private void txt9_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_6KeyTyped
+    private void jTextField8_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_6.getText().length() == 1) {
+        if (jTextField8_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_6KeyTyped
+    }//GEN-LAST:event_jTextField8_9KeyTyped
 
-    private void txt4_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_2KeyTyped
+    private void jTextField4_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_2.getText().length() == 1) {
+        if (jTextField4_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_2KeyTyped
+    }//GEN-LAST:event_jTextField4_2KeyTyped
 
-    private void txt4_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_1KeyTyped
+    private void jTextField4_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_1.getText().length() == 1) {
+        if (jTextField4_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_1KeyTyped
+    }//GEN-LAST:event_jTextField4_1KeyTyped
 
-    private void txt4_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_3KeyTyped
+    private void jTextField4_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_3.getText().length() == 1) {
+        if (jTextField4_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_3KeyTyped
+    }//GEN-LAST:event_jTextField4_3KeyTyped
 
-    private void txt5_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_1KeyTyped
+    private void jTextField4_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_1.getText().length() == 1) {
+        if (jTextField4_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_1KeyTyped
+    }//GEN-LAST:event_jTextField4_4KeyTyped
 
-    private void txt5_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_2KeyTyped
+    private void jTextField4_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_2.getText().length() == 1) {
+        if (jTextField4_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_2KeyTyped
+    }//GEN-LAST:event_jTextField4_5KeyTyped
 
-    private void txt5_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_3KeyTyped
+    private void jTextField4_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_3.getText().length() == 1) {
+        if (jTextField4_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_3KeyTyped
+    }//GEN-LAST:event_jTextField4_6KeyTyped
 
-    private void txt6_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_1KeyTyped
+    private void jTextField4_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_1.getText().length() == 1) {
+        if (jTextField4_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_1KeyTyped
+    }//GEN-LAST:event_jTextField4_7KeyTyped
 
-    private void txt6_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_2KeyTyped
+    private void jTextField4_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_2.getText().length() == 1) {
+        if (jTextField4_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_2KeyTyped
+    }//GEN-LAST:event_jTextField4_8KeyTyped
 
-    private void txt6_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_3KeyTyped
+    private void jTextField4_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_3.getText().length() == 1) {
+        if (jTextField4_9.getText().length() == 1) {
             evt.consume();
         }
         if (Character.isSpace(evt.getKeyChar())) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_3KeyTyped
+    }//GEN-LAST:event_jTextField4_9KeyTyped
 
-    private void txt7_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_8KeyTyped
+    private void jTextField9_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_8.getText().length() == 1) {
+        if (jTextField9_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_8KeyTyped
+    }//GEN-LAST:event_jTextField9_2KeyTyped
 
-    private void txt7_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_7KeyTyped
+    private void jTextField9_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_7.getText().length() == 1) {
+        if (jTextField9_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_7KeyTyped
+    }//GEN-LAST:event_jTextField9_1KeyTyped
 
-    private void txt7_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_9KeyTyped
+    private void jTextField9_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_9.getText().length() == 1) {
+        if (jTextField9_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_9KeyTyped
+    }//GEN-LAST:event_jTextField9_3KeyTyped
 
-    private void txt8_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_7KeyTyped
+    private void jTextField9_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_7.getText().length() == 1) {
+        if (jTextField9_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_7KeyTyped
+    }//GEN-LAST:event_jTextField9_4KeyTyped
 
-    private void txt8_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_8KeyTyped
+    private void jTextField9_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_8.getText().length() == 1) {
+        if (jTextField9_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_8KeyTyped
+    }//GEN-LAST:event_jTextField9_5KeyTyped
 
-    private void txt8_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_9KeyTyped
+    private void jTextField9_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_9.getText().length() == 1) {
+        if (jTextField9_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_9KeyTyped
+    }//GEN-LAST:event_jTextField9_6KeyTyped
 
-    private void txt9_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_7KeyTyped
+    private void jTextField9_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_7.getText().length() == 1) {
+        if (jTextField9_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_7KeyTyped
+    }//GEN-LAST:event_jTextField9_7KeyTyped
 
-    private void txt9_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_8KeyTyped
+    private void jTextField9_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_8.getText().length() == 1) {
+        if (jTextField9_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_8KeyTyped
+    }//GEN-LAST:event_jTextField9_8KeyTyped
 
-    private void txt9_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_9KeyTyped
+    private void jTextField9_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_9.getText().length() == 1) {
+        if (jTextField9_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_9KeyTyped
+    }//GEN-LAST:event_jTextField9_9KeyTyped
 
-    private void txt1_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_8KeyTyped
+    private void jTextField3_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_8.getText().length() == 1) {
+        if (jTextField3_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_8KeyTyped
+    }//GEN-LAST:event_jTextField3_2KeyTyped
 
-    private void txt1_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_7KeyTyped
+    private void jTextField3_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_7.getText().length() == 1) {
+        if (jTextField3_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_7KeyTyped
+    }//GEN-LAST:event_jTextField3_3KeyTyped
 
-    private void txt1_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_9KeyTyped
+    private void jTextField3_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_9.getText().length() == 1) {
+        if (jTextField3_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_9KeyTyped
+    }//GEN-LAST:event_jTextField3_4KeyTyped
 
-    private void txt2_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_7KeyTyped
+    private void jTextField3_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_7.getText().length() == 1) {
+        if (jTextField3_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_7KeyTyped
+    }//GEN-LAST:event_jTextField3_5KeyTyped
 
-    private void txt2_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_8KeyTyped
+    private void jTextField3_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_8.getText().length() == 1) {
+        if (jTextField3_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_8KeyTyped
+    }//GEN-LAST:event_jTextField3_6KeyTyped
 
-    private void txt2_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_9KeyTyped
+    private void jTextField3_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_9.getText().length() == 1) {
+        if (jTextField3_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_9KeyTyped
+    }//GEN-LAST:event_jTextField3_7KeyTyped
 
-    private void txt3_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_7KeyTyped
+    private void jTextField3_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_7.getText().length() == 1) {
+        if (jTextField3_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_7KeyTyped
+    }//GEN-LAST:event_jTextField3_8KeyTyped
 
-    private void txt3_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (txt3_8.getText().length() == 1) {
-            evt.consume();
-        }
-    }//GEN-LAST:event_txt3_8KeyTyped
-
-    private void txt3_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_9KeyTyped
+    private void jTextField3_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_9KeyTyped
 
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_9.getText().length() == 1) {
+        if (jTextField3_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_9KeyTyped
+    }//GEN-LAST:event_jTextField3_9KeyTyped
 
-    private void txt4_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_8KeyTyped
+    private void jTextField6_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_8.getText().length() == 1) {
+        if (jTextField6_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_8KeyTyped
+    }//GEN-LAST:event_jTextField6_2KeyTyped
 
-    private void txt4_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_7KeyTyped
+    private void jTextField6_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_7.getText().length() == 1) {
+        if (jTextField6_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_7KeyTyped
+    }//GEN-LAST:event_jTextField6_1KeyTyped
 
-    private void txt4_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_9KeyTyped
+    private void jTextField6_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_9.getText().length() == 1) {
+        if (jTextField6_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_9KeyTyped
+    }//GEN-LAST:event_jTextField6_3KeyTyped
 
-    private void txt5_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_7KeyTyped
+    private void jTextField6_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_7.getText().length() == 1) {
+        if (jTextField6_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_7KeyTyped
+    }//GEN-LAST:event_jTextField6_4KeyTyped
 
-    private void txt5_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_8KeyTyped
+    private void jTextField6_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_8.getText().length() == 1) {
+        if (jTextField6_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_8KeyTyped
+    }//GEN-LAST:event_jTextField6_5KeyTyped
 
-    private void txt5_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_9KeyTyped
+    private void jTextField6_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_9.getText().length() == 1) {
+        if (jTextField6_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_9KeyTyped
+    }//GEN-LAST:event_jTextField6_6KeyTyped
 
-    private void txt6_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_7KeyTyped
+    private void jTextField6_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_7.getText().length() == 1) {
+        if (jTextField6_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_7KeyTyped
+    }//GEN-LAST:event_jTextField6_7KeyTyped
 
-    private void txt6_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_8KeyTyped
+    private void jTextField6_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_8.getText().length() == 1) {
+        if (jTextField6_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_8KeyTyped
+    }//GEN-LAST:event_jTextField6_8KeyTyped
 
-    private void txt6_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_9KeyTyped
+    private void jTextField6_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_9.getText().length() == 1) {
+        if (jTextField6_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_9KeyTyped
+    }//GEN-LAST:event_jTextField6_9KeyTyped
 
-    private void txt1_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_5KeyTyped
+    private void jTextField2_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_5.getText().length() == 1) {
+        if (jTextField2_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_5KeyTyped
+    }//GEN-LAST:event_jTextField2_2KeyTyped
 
-    private void txt1_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_4KeyTyped
+    private void jTextField2_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_4.getText().length() == 1) {
+        if (jTextField2_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_4KeyTyped
+    }//GEN-LAST:event_jTextField2_1KeyTyped
 
-    private void txt1_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_6KeyTyped
+    private void jTextField2_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt1_6.getText().length() == 1) {
+        if (jTextField2_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt1_6KeyTyped
+    }//GEN-LAST:event_jTextField2_3KeyTyped
 
-    private void txt2_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_4KeyTyped
+    private void jTextField2_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_4.getText().length() == 1) {
+        if (jTextField2_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_4KeyTyped
+    }//GEN-LAST:event_jTextField2_4KeyTyped
 
-    private void txt2_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_5KeyTyped
+    private void jTextField2_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_5.getText().length() == 1) {
+        if (jTextField2_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_5KeyTyped
+    }//GEN-LAST:event_jTextField2_5KeyTyped
 
-    private void txt2_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2_6KeyTyped
+    private void jTextField2_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt2_6.getText().length() == 1) {
+        if (jTextField2_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt2_6KeyTyped
+    }//GEN-LAST:event_jTextField2_6KeyTyped
 
-    private void txt3_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_4KeyTyped
+    private void jTextField2_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_4.getText().length() == 1) {
+        if (jTextField2_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_4KeyTyped
+    }//GEN-LAST:event_jTextField2_7KeyTyped
 
-    private void txt3_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_5KeyTyped
+    private void jTextField2_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_5.getText().length() == 1) {
+        if (jTextField2_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_5KeyTyped
+    }//GEN-LAST:event_jTextField2_8KeyTyped
 
-    private void txt3_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3_6KeyTyped
+    private void jTextField2_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt3_6.getText().length() == 1) {
+        if (jTextField2_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt3_6KeyTyped
+    }//GEN-LAST:event_jTextField2_9KeyTyped
 
-    private void txt7_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_2KeyTyped
+    private void jTextField7_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_2.getText().length() == 1) {
+        if (jTextField7_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_2KeyTyped
+    }//GEN-LAST:event_jTextField7_2KeyTyped
 
-    private void txt7_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_1KeyTyped
+    private void jTextField7_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_1.getText().length() == 1) {
+        if (jTextField7_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_1KeyTyped
+    }//GEN-LAST:event_jTextField7_1KeyTyped
 
-    private void txt7_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7_3KeyTyped
+    private void jTextField7_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt7_3.getText().length() == 1) {
+        if (jTextField7_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt7_3KeyTyped
+    }//GEN-LAST:event_jTextField7_3KeyTyped
 
-    private void txt8_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_1KeyTyped
+    private void jTextField7_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_1.getText().length() == 1) {
+        if (jTextField7_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_1KeyTyped
+    }//GEN-LAST:event_jTextField7_4KeyTyped
 
-    private void txt8_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_2KeyTyped
+    private void jTextField7_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_2.getText().length() == 1) {
+        if (jTextField7_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_2KeyTyped
+    }//GEN-LAST:event_jTextField7_5KeyTyped
 
-    private void txt8_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt8_3KeyTyped
+    private void jTextField7_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt8_3.getText().length() == 1) {
+        if (jTextField7_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt8_3KeyTyped
+    }//GEN-LAST:event_jTextField7_6KeyTyped
 
-    private void txt9_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_1KeyTyped
+    private void jTextField7_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_1.getText().length() == 1) {
+        if (jTextField7_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_1KeyTyped
+    }//GEN-LAST:event_jTextField7_7KeyTyped
 
-    private void txt9_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_2KeyTyped
+    private void jTextField7_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_2.getText().length() == 1) {
+        if (jTextField7_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_2KeyTyped
+    }//GEN-LAST:event_jTextField7_8KeyTyped
 
-    private void txt9_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt9_3KeyTyped
+    private void jTextField7_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt9_3.getText().length() == 1) {
+        if (jTextField7_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt9_3KeyTyped
+    }//GEN-LAST:event_jTextField7_9KeyTyped
 
-    private void txt4_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_5KeyTyped
+    private void jTextField5_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_5.getText().length() == 1) {
+        if (jTextField5_2.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_5KeyTyped
+    }//GEN-LAST:event_jTextField5_2KeyTyped
 
-    private void txt4_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_4KeyTyped
+    private void jTextField5_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_1KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_4.getText().length() == 1) {
+        if (jTextField5_1.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_4KeyTyped
+    }//GEN-LAST:event_jTextField5_1KeyTyped
 
-    private void txt4_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4_6KeyTyped
+    private void jTextField5_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_3KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt4_6.getText().length() == 1) {
+        if (jTextField5_3.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt4_6KeyTyped
+    }//GEN-LAST:event_jTextField5_3KeyTyped
 
-    private void txt5_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_4KeyTyped
+    private void jTextField5_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_4KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_4.getText().length() == 1) {
+        if (jTextField5_4.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_4KeyTyped
+    }//GEN-LAST:event_jTextField5_4KeyTyped
 
-    private void txt5_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_5KeyTyped
+    private void jTextField5_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_5KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_5.getText().length() == 1) {
+        if (jTextField5_5.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_5KeyTyped
+    }//GEN-LAST:event_jTextField5_5KeyTyped
 
-    private void txt5_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5_6KeyTyped
+    private void jTextField5_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_6KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt5_6.getText().length() == 1) {
+        if (jTextField5_6.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt5_6KeyTyped
+    }//GEN-LAST:event_jTextField5_6KeyTyped
 
-    private void txt6_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_4KeyTyped
+    private void jTextField5_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_7KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_4.getText().length() == 1) {
+        if (jTextField5_7.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_4KeyTyped
+    }//GEN-LAST:event_jTextField5_7KeyTyped
 
-    private void txt6_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_5KeyTyped
+    private void jTextField5_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_8KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_5.getText().length() == 1) {
+        if (jTextField5_8.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_5KeyTyped
+    }//GEN-LAST:event_jTextField5_8KeyTyped
 
-    private void txt6_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6_6KeyTyped
+    private void jTextField5_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_9KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (txt6_6.getText().length() == 1) {
+        if (jTextField5_9.getText().length() == 1) {
             evt.consume();
         }
-    }//GEN-LAST:event_txt6_6KeyTyped
+    }//GEN-LAST:event_jTextField5_9KeyTyped
+
+    private void jTextField3_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_1KeyTyped
+        if (Character.isLetter(evt.getKeyChar())) {
+            evt.consume();
+        }
+        if (jTextField3_1.getText().length() == 1) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextField3_1KeyTyped
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -2213,86 +2209,86 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JTextField txt1_1;
-    private javax.swing.JTextField txt1_2;
-    private javax.swing.JTextField txt1_3;
-    private javax.swing.JTextField txt1_4;
-    private javax.swing.JTextField txt1_5;
-    private javax.swing.JTextField txt1_6;
-    private javax.swing.JTextField txt1_7;
-    private javax.swing.JTextField txt1_8;
-    private javax.swing.JTextField txt1_9;
-    private javax.swing.JTextField txt2_1;
-    private javax.swing.JTextField txt2_2;
-    private javax.swing.JTextField txt2_3;
-    private javax.swing.JTextField txt2_4;
-    private javax.swing.JTextField txt2_5;
-    private javax.swing.JTextField txt2_6;
-    private javax.swing.JTextField txt2_7;
-    private javax.swing.JTextField txt2_8;
-    private javax.swing.JTextField txt2_9;
-    private javax.swing.JTextField txt3_1;
-    private javax.swing.JTextField txt3_2;
-    private javax.swing.JTextField txt3_3;
-    private javax.swing.JTextField txt3_4;
-    private javax.swing.JTextField txt3_5;
-    private javax.swing.JTextField txt3_6;
-    private javax.swing.JTextField txt3_7;
-    private javax.swing.JTextField txt3_8;
-    private javax.swing.JTextField txt3_9;
-    private javax.swing.JTextField txt4_1;
-    private javax.swing.JTextField txt4_2;
-    private javax.swing.JTextField txt4_3;
-    private javax.swing.JTextField txt4_4;
-    private javax.swing.JTextField txt4_5;
-    private javax.swing.JTextField txt4_6;
-    private javax.swing.JTextField txt4_7;
-    private javax.swing.JTextField txt4_8;
-    private javax.swing.JTextField txt4_9;
-    private javax.swing.JTextField txt5_1;
-    private javax.swing.JTextField txt5_2;
-    private javax.swing.JTextField txt5_3;
-    private javax.swing.JTextField txt5_4;
-    private javax.swing.JTextField txt5_5;
-    private javax.swing.JTextField txt5_6;
-    private javax.swing.JTextField txt5_7;
-    private javax.swing.JTextField txt5_8;
-    private javax.swing.JTextField txt5_9;
-    private javax.swing.JTextField txt6_1;
-    private javax.swing.JTextField txt6_2;
-    private javax.swing.JTextField txt6_3;
-    private javax.swing.JTextField txt6_4;
-    private javax.swing.JTextField txt6_5;
-    private javax.swing.JTextField txt6_6;
-    private javax.swing.JTextField txt6_7;
-    private javax.swing.JTextField txt6_8;
-    private javax.swing.JTextField txt6_9;
-    private javax.swing.JTextField txt7_1;
-    private javax.swing.JTextField txt7_2;
-    private javax.swing.JTextField txt7_3;
-    private javax.swing.JTextField txt7_4;
-    private javax.swing.JTextField txt7_5;
-    private javax.swing.JTextField txt7_6;
-    private javax.swing.JTextField txt7_7;
-    private javax.swing.JTextField txt7_8;
-    private javax.swing.JTextField txt7_9;
-    private javax.swing.JTextField txt8_1;
-    private javax.swing.JTextField txt8_2;
-    private javax.swing.JTextField txt8_3;
-    private javax.swing.JTextField txt8_4;
-    private javax.swing.JTextField txt8_5;
-    private javax.swing.JTextField txt8_6;
-    private javax.swing.JTextField txt8_7;
-    private javax.swing.JTextField txt8_8;
-    private javax.swing.JTextField txt8_9;
-    private javax.swing.JTextField txt9_1;
-    private javax.swing.JTextField txt9_2;
-    private javax.swing.JTextField txt9_3;
-    private javax.swing.JTextField txt9_4;
-    private javax.swing.JTextField txt9_5;
-    private javax.swing.JTextField txt9_6;
-    private javax.swing.JTextField txt9_7;
-    private javax.swing.JTextField txt9_8;
-    private javax.swing.JTextField txt9_9;
+    private javax.swing.JTextField jTextField1_1;
+    private javax.swing.JTextField jTextField1_2;
+    private javax.swing.JTextField jTextField1_3;
+    private javax.swing.JTextField jTextField1_4;
+    private javax.swing.JTextField jTextField1_5;
+    private javax.swing.JTextField jTextField1_6;
+    private javax.swing.JTextField jTextField1_7;
+    private javax.swing.JTextField jTextField1_8;
+    private javax.swing.JTextField jTextField1_9;
+    private javax.swing.JTextField jTextField2_1;
+    private javax.swing.JTextField jTextField2_2;
+    private javax.swing.JTextField jTextField2_3;
+    private javax.swing.JTextField jTextField2_4;
+    private javax.swing.JTextField jTextField2_5;
+    private javax.swing.JTextField jTextField2_6;
+    private javax.swing.JTextField jTextField2_7;
+    private javax.swing.JTextField jTextField2_8;
+    private javax.swing.JTextField jTextField2_9;
+    private javax.swing.JTextField jTextField3_1;
+    private javax.swing.JTextField jTextField3_2;
+    private javax.swing.JTextField jTextField3_3;
+    private javax.swing.JTextField jTextField3_4;
+    private javax.swing.JTextField jTextField3_5;
+    private javax.swing.JTextField jTextField3_6;
+    private javax.swing.JTextField jTextField3_7;
+    private javax.swing.JTextField jTextField3_8;
+    private javax.swing.JTextField jTextField3_9;
+    private javax.swing.JTextField jTextField4_1;
+    private javax.swing.JTextField jTextField4_2;
+    private javax.swing.JTextField jTextField4_3;
+    private javax.swing.JTextField jTextField4_4;
+    private javax.swing.JTextField jTextField4_5;
+    private javax.swing.JTextField jTextField4_6;
+    private javax.swing.JTextField jTextField4_7;
+    private javax.swing.JTextField jTextField4_8;
+    private javax.swing.JTextField jTextField4_9;
+    private javax.swing.JTextField jTextField5_1;
+    private javax.swing.JTextField jTextField5_2;
+    private javax.swing.JTextField jTextField5_3;
+    private javax.swing.JTextField jTextField5_4;
+    private javax.swing.JTextField jTextField5_5;
+    private javax.swing.JTextField jTextField5_6;
+    private javax.swing.JTextField jTextField5_7;
+    private javax.swing.JTextField jTextField5_8;
+    private javax.swing.JTextField jTextField5_9;
+    private javax.swing.JTextField jTextField6_1;
+    private javax.swing.JTextField jTextField6_2;
+    private javax.swing.JTextField jTextField6_3;
+    private javax.swing.JTextField jTextField6_4;
+    private javax.swing.JTextField jTextField6_5;
+    private javax.swing.JTextField jTextField6_6;
+    private javax.swing.JTextField jTextField6_7;
+    private javax.swing.JTextField jTextField6_8;
+    private javax.swing.JTextField jTextField6_9;
+    private javax.swing.JTextField jTextField7_1;
+    private javax.swing.JTextField jTextField7_2;
+    private javax.swing.JTextField jTextField7_3;
+    private javax.swing.JTextField jTextField7_4;
+    private javax.swing.JTextField jTextField7_5;
+    private javax.swing.JTextField jTextField7_6;
+    private javax.swing.JTextField jTextField7_7;
+    private javax.swing.JTextField jTextField7_8;
+    private javax.swing.JTextField jTextField7_9;
+    private javax.swing.JTextField jTextField8_1;
+    private javax.swing.JTextField jTextField8_2;
+    private javax.swing.JTextField jTextField8_3;
+    private javax.swing.JTextField jTextField8_4;
+    private javax.swing.JTextField jTextField8_5;
+    private javax.swing.JTextField jTextField8_6;
+    private javax.swing.JTextField jTextField8_7;
+    private javax.swing.JTextField jTextField8_8;
+    private javax.swing.JTextField jTextField8_9;
+    private javax.swing.JTextField jTextField9_1;
+    private javax.swing.JTextField jTextField9_2;
+    private javax.swing.JTextField jTextField9_3;
+    private javax.swing.JTextField jTextField9_4;
+    private javax.swing.JTextField jTextField9_5;
+    private javax.swing.JTextField jTextField9_6;
+    private javax.swing.JTextField jTextField9_7;
+    private javax.swing.JTextField jTextField9_8;
+    private javax.swing.JTextField jTextField9_9;
     // End of variables declaration//GEN-END:variables
 }
