@@ -136,7 +136,7 @@ public class Matriz {
         validarSudoku(this.matriz);
         System.out.println("====================");
         toStringMatriz();
-        
+        System.out.println("====================");
     }
 
     public void toStringMatriz() {

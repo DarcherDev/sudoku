@@ -1456,6 +1456,7 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void btnIntentarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntentarActionPerformed
 
+        this.sudoku.toStringMatriz();
     }//GEN-LAST:event_btnIntentarActionPerformed
 
     private void txt1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1_2KeyTyped
