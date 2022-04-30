@@ -15,6 +15,5 @@ import reglas.Validaciones;
 public class Principal {
     public static void main(String[] args) {
         Interfaz interfaz = new Interfaz();
-        Validaciones validaciones =  new Validaciones(interfaz);
     }
 }

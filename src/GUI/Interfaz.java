@@ -5,13 +5,14 @@
  */
 package GUI;
 
-import DATA.Matriz;
+import DATA.Control;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import reglas.Validaciones;
 
 /**
  *
@@ -19,17 +20,19 @@ import javax.swing.JTextField;
  */
 public class Interfaz extends javax.swing.JFrame {
 
-    public Matriz sudoku;
+    public Control sudoku;
     public JTextField matrizJTextField[][] = new JTextField[9][9];
+    private Validaciones validaciones;
 
     /**
      * Creates new form intefaz
      */
     public Interfaz() {
         initComponents();
-        sudoku = new Matriz();
+        sudoku = new Control();
         agregarJTextField();
         this.setVisible(true);
+        this.validaciones = new Validaciones(this);
     }
 
     public void agregarJTextField() {
@@ -1612,7 +1615,7 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButtonIniciarJuegoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIniciarJuegoActionPerformed
         sudoku.cargarMatriz();
-        
+        validaciones.mostrarNumeros();
     }//GEN-LAST:event_jButtonIniciarJuegoActionPerformed
 
     private void jTextField8_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_2KeyTyped
@@ -2373,11 +2376,11 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField9_9;
     // End of variables declaration//GEN-END:variables
 
-    public Matriz getSudoku() {
+    public Control getSudoku() {
         return sudoku;
     }
 
-    public void setSudoku(Matriz sudoku) {
+    public void setSudoku(Control sudoku) {
         this.sudoku = sudoku;
     }
 

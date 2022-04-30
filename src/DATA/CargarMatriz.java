@@ -17,20 +17,16 @@ import java.io.IOException;
  */
 public class CargarMatriz {
 
-    Matriz sudoku;
-    String SudokuString[][] = new String[9][9];
-
-    public CargarMatriz(Matriz sudoku) {
-        this.sudoku = sudoku;
-    }
-
     /**
      * Metodo para Leer el archivo de texto con la configuracion inicial
      *
      * @throws FileNotFoundException
      * @throws IOException
      */
-    public void Leer() throws FileNotFoundException, IOException {
+    public static String[][] Leer(int size) throws FileNotFoundException, IOException {
+        
+        String[][] SudokuString = new String[size][size];
+        
         try {
             // creamos el archivo
             FileReader archivo = new FileReader(new File("ConfiguracionInicial.txt"));
@@ -47,10 +43,10 @@ public class CargarMatriz {
                 numlinea++;
             }
             linea = lector.readLine();
-            // ya temenos la matriz en string y se guadar en la clase matriz
-            sudoku.setSudokuString(SudokuString);
         } catch (IOException e) {
             e.printStackTrace();
         }
+        // ya temenos la matriz en string y se guadar en la clase matriz
+         return SudokuString;
     }
 }
