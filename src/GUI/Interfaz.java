@@ -20,7 +20,7 @@ import javax.swing.JTextField;
 public class Interfaz extends javax.swing.JFrame {
 
     public Matriz sudoku;
-    JTextField matrizJTextField[][] = new JTextField[9][9];
+    public JTextField matrizJTextField[][] = new JTextField[9][9];
 
     /**
      * Creates new form intefaz
