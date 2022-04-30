@@ -20,6 +20,7 @@ import javax.swing.JTextField;
 public class Interfaz extends javax.swing.JFrame {
 
     public Matriz sudoku;
+    JTextField matrizJTextField[][] = new JTextField[9][9];
 
     /**
      * Creates new form intefaz
@@ -28,6 +29,100 @@ public class Interfaz extends javax.swing.JFrame {
         initComponents();
         sudoku = new Matriz();
         this.setVisible(true);
+    }
+
+    public void agregarJTextField() {
+        matrizJTextField[0][0] = jTextField1_1;
+        matrizJTextField[0][1] = jTextField1_2;
+        matrizJTextField[0][2] = jTextField1_3;
+        matrizJTextField[0][3] = jTextField2_1;
+        matrizJTextField[0][4] = jTextField2_2;
+        matrizJTextField[0][5] = jTextField2_3;
+        matrizJTextField[0][6] = jTextField3_1;
+        matrizJTextField[0][7] = jTextField3_2;
+        matrizJTextField[0][8] = jTextField3_3;
+        //====================================
+        matrizJTextField[1][0] = jTextField1_4;
+        matrizJTextField[1][1] = jTextField1_5;
+        matrizJTextField[1][2] = jTextField1_6;
+        matrizJTextField[1][3] = jTextField2_4;
+        matrizJTextField[1][4] = jTextField2_5;
+        matrizJTextField[1][5] = jTextField2_6;
+        matrizJTextField[1][6] = jTextField3_4;
+        matrizJTextField[1][7] = jTextField3_5;
+        matrizJTextField[1][8] = jTextField3_6;
+        //====================================
+        matrizJTextField[2][0] = jTextField1_7;
+        matrizJTextField[2][1] = jTextField1_8;
+        matrizJTextField[2][2] = jTextField1_9;
+        matrizJTextField[2][3] = jTextField2_7;
+        matrizJTextField[2][4] = jTextField2_8;
+        matrizJTextField[2][5] = jTextField2_9;
+        matrizJTextField[2][6] = jTextField3_7;
+        matrizJTextField[2][7] = jTextField3_8;
+        matrizJTextField[2][8] = jTextField3_9;
+        //====================================
+        //====================================
+        matrizJTextField[3][0] = jTextField4_1;
+        matrizJTextField[3][1] = jTextField4_2;
+        matrizJTextField[3][2] = jTextField4_3;
+        matrizJTextField[3][3] = jTextField5_1;
+        matrizJTextField[3][4] = jTextField5_2;
+        matrizJTextField[3][5] = jTextField5_3;
+        matrizJTextField[3][6] = jTextField6_1;
+        matrizJTextField[3][7] = jTextField6_2;
+        matrizJTextField[3][8] = jTextField6_3;
+        //====================================
+        matrizJTextField[4][0] = jTextField4_4;
+        matrizJTextField[4][1] = jTextField4_5;
+        matrizJTextField[4][2] = jTextField4_6;
+        matrizJTextField[4][3] = jTextField5_4;
+        matrizJTextField[4][4] = jTextField5_5;
+        matrizJTextField[4][5] = jTextField5_6;
+        matrizJTextField[4][6] = jTextField6_4;
+        matrizJTextField[4][7] = jTextField6_5;
+        matrizJTextField[4][8] = jTextField6_6;
+        //====================================
+        matrizJTextField[5][0] = jTextField4_7;
+        matrizJTextField[5][1] = jTextField4_8;
+        matrizJTextField[5][2] = jTextField4_9;
+        matrizJTextField[5][3] = jTextField4_7;
+        matrizJTextField[5][4] = jTextField4_8;
+        matrizJTextField[5][5] = jTextField4_9;
+        matrizJTextField[5][6] = jTextField4_7;
+        matrizJTextField[5][7] = jTextField4_8;
+        matrizJTextField[5][8] = jTextField4_9;
+        //====================================
+        //====================================
+        matrizJTextField[6][0] = jTextField7_1;
+        matrizJTextField[6][1] = jTextField7_2;
+        matrizJTextField[6][2] = jTextField7_3;
+        matrizJTextField[6][3] = jTextField8_1;
+        matrizJTextField[6][4] = jTextField8_2;
+        matrizJTextField[6][5] = jTextField8_3;
+        matrizJTextField[6][6] = jTextField9_1;
+        matrizJTextField[6][7] = jTextField9_2;
+        matrizJTextField[6][8] = jTextField9_3;
+        //====================================
+        matrizJTextField[7][0] = jTextField7_4;
+        matrizJTextField[7][1] = jTextField7_5;
+        matrizJTextField[7][2] = jTextField7_6;
+        matrizJTextField[7][3] = jTextField8_4;
+        matrizJTextField[7][4] = jTextField8_5;
+        matrizJTextField[7][5] = jTextField8_6;
+        matrizJTextField[7][6] = jTextField9_4;
+        matrizJTextField[7][7] = jTextField9_5;
+        matrizJTextField[7][8] = jTextField9_6;
+        //====================================
+        matrizJTextField[8][0] = jTextField7_7;
+        matrizJTextField[8][1] = jTextField7_8;
+        matrizJTextField[8][2] = jTextField7_9;
+        matrizJTextField[8][3] = jTextField8_7;
+        matrizJTextField[8][4] = jTextField8_8;
+        matrizJTextField[8][5] = jTextField8_9;
+        matrizJTextField[8][6] = jTextField9_7;
+        matrizJTextField[8][7] = jTextField9_8;
+        matrizJTextField[8][8] = jTextField9_9;
     }
 
     /**
@@ -39,6 +134,7 @@ public class Interfaz extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         btnReiniciar = new javax.swing.JButton();
         btnStart = new javax.swing.JButton();
         btnIntentar = new javax.swing.JButton();
@@ -2203,6 +2299,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JButton btnIntentar;
     private javax.swing.JButton btnReiniciar;
     private javax.swing.JButton btnStart;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -3054,5 +3151,5 @@ public class Interfaz extends javax.swing.JFrame {
     public void setjTextField9_9(JTextField jTextField9_9) {
         this.jTextField9_9 = jTextField9_9;
     }
-    
+
 }
