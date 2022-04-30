@@ -21,6 +21,7 @@ public class Validaciones {
     
     public void validar(){
         //comentario violento
+        //comentario pasifico
     }
     
 }
