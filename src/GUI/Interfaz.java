@@ -8,6 +8,7 @@ package GUI;
 import DATA.Control;
 import java.util.ArrayList;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import reglas.Validaciones;
@@ -31,6 +32,10 @@ public class Interfaz extends javax.swing.JFrame {
         this.validaciones = validaciones;
     }
 
+    /**
+     * motodo donde se agregan los jTexField a un jTexField
+     * para ser mas comodo de trabajar
+     */
     public void agregarJTextField() {
         matrizJTextField[0][0] = jTextField1_1;
         matrizJTextField[0][1] = jTextField1_2;
@@ -1528,49 +1533,72 @@ public class Interfaz extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void keyTyped(javax.swing.JTextField jTextField, java.awt.event.KeyEvent evt){
+    private void keyTyped(javax.swing.JTextField jTextField, java.awt.event.KeyEvent evt, int i, int j) {
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
         if (jTextField.getText().length() == 1) {
             evt.consume();
         }
+        if (Character.isSpaceChar(evt.getKeyChar())) {
+            evt.consume();
+        }
+        String numero = String.valueOf(evt.getKeyChar());
+        if (numero.equals(matrizJTextField[i][j].getText())) {
+        }
+        capturarNumero(numero, i, j);
     }
 
+    public void capturarNumero(String numero, int i, int j) {
+        try {
+            int num = Integer.parseInt(numero);
+            boolean validar = validaciones.capturarNumero(i, j, num);
+
+            if (validar) {
+                validaciones.mostrarNumeros(matrizJTextField);
+            }else{
+                JOptionPane.showMessageDialog(rootPane, "ingreso un numero no valido");
+                matrizJTextField[i][j].setText("");
+            }
+        } catch (NumberFormatException e) {
+        }
+    }
+
+
     private void jTextField1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_2KeyTyped
-        keyTyped(jTextField1_2, evt);
+        keyTyped(jTextField1_2, evt, 0, 1);
     }//GEN-LAST:event_jTextField1_2KeyTyped
 
     private void jTextField1_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_1KeyTyped
-        keyTyped(jTextField1_1, evt);
+        keyTyped(jTextField1_1, evt, 0, 0);
     }//GEN-LAST:event_jTextField1_1KeyTyped
 
     private void jTextField1_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_3KeyTyped
-        keyTyped(jTextField1_3, evt);
+        keyTyped(jTextField1_3, evt, 0, 2);
     }//GEN-LAST:event_jTextField1_3KeyTyped
 
     private void jTextField1_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_4KeyTyped
-        keyTyped(jTextField1_4, evt);
+        keyTyped(jTextField1_4, evt, 0, 3);
     }//GEN-LAST:event_jTextField1_4KeyTyped
 
     private void jTextField1_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_5KeyTyped
-        keyTyped(jTextField1_5, evt);
+        keyTyped(jTextField1_5, evt, 0, 4);
     }//GEN-LAST:event_jTextField1_5KeyTyped
 
     private void jTextField1_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_6KeyTyped
-        keyTyped(jTextField1_6, evt);
+        keyTyped(jTextField1_6, evt, 0, 5);
     }//GEN-LAST:event_jTextField1_6KeyTyped
 
     private void jTextField1_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_7KeyTyped
-        keyTyped(jTextField1_7, evt);
+        keyTyped(jTextField1_7, evt, 0, 6);
     }//GEN-LAST:event_jTextField1_7KeyTyped
 
     private void jTextField1_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_8KeyTyped
-        keyTyped(jTextField1_8, evt);
+        keyTyped(jTextField1_8, evt, 0, 7);
     }//GEN-LAST:event_jTextField1_8KeyTyped
 
     private void jTextField1_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_9KeyTyped
-        keyTyped(jTextField1_9, evt);
+        keyTyped(jTextField1_9, evt, 0, 8);
     }//GEN-LAST:event_jTextField1_9KeyTyped
 
     private void jButtonIniciarJuegoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIniciarJuegoActionPerformed
@@ -1578,291 +1606,291 @@ public class Interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonIniciarJuegoActionPerformed
 
     private void jTextField8_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_2KeyTyped
-        keyTyped(jTextField8_2, evt);
+        keyTyped(jTextField8_2, evt, 7, 1);
     }//GEN-LAST:event_jTextField8_2KeyTyped
 
     private void jTextField8_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_1KeyTyped
-        keyTyped(jTextField8_1, evt);
+        keyTyped(jTextField8_1, evt, 7, 0);
     }//GEN-LAST:event_jTextField8_1KeyTyped
 
     private void jTextField8_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_3KeyTyped
-        keyTyped(jTextField8_3, evt);
+        keyTyped(jTextField8_3, evt, 7, 2);
     }//GEN-LAST:event_jTextField8_3KeyTyped
 
     private void jTextField8_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_4KeyTyped
-        keyTyped(jTextField8_4, evt);
+        keyTyped(jTextField8_4, evt, 7, 3);
     }//GEN-LAST:event_jTextField8_4KeyTyped
 
     private void jTextField8_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_5KeyTyped
-        keyTyped(jTextField8_5, evt);
+        keyTyped(jTextField8_5, evt, 7, 4);
     }//GEN-LAST:event_jTextField8_5KeyTyped
 
     private void jTextField8_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_6KeyTyped
-        keyTyped(jTextField8_6, evt);
+        keyTyped(jTextField8_6, evt, 7, 5);
     }//GEN-LAST:event_jTextField8_6KeyTyped
 
     private void jTextField8_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_7KeyTyped
-        keyTyped(jTextField8_7, evt);
+        keyTyped(jTextField8_7, evt, 7, 6);
     }//GEN-LAST:event_jTextField8_7KeyTyped
 
     private void jTextField8_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_8KeyTyped
-        keyTyped(jTextField8_8, evt);
+        keyTyped(jTextField8_8, evt, 7, 7);
     }//GEN-LAST:event_jTextField8_8KeyTyped
 
     private void jTextField8_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_9KeyTyped
-        keyTyped(jTextField8_9, evt);
+        keyTyped(jTextField8_9, evt, 7, 8);
     }//GEN-LAST:event_jTextField8_9KeyTyped
 
     private void jTextField4_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_2KeyTyped
-        keyTyped(jTextField4_2, evt);
+        keyTyped(jTextField4_2, evt, 3, 1);
     }//GEN-LAST:event_jTextField4_2KeyTyped
 
     private void jTextField4_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_1KeyTyped
-        keyTyped(jTextField4_1, evt);
+        keyTyped(jTextField4_1, evt, 3, 0);
     }//GEN-LAST:event_jTextField4_1KeyTyped
 
     private void jTextField4_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_3KeyTyped
-        keyTyped(jTextField4_3, evt);
+        keyTyped(jTextField4_3, evt, 3, 2);
     }//GEN-LAST:event_jTextField4_3KeyTyped
 
     private void jTextField4_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_4KeyTyped
-        keyTyped(jTextField4_4, evt);
+        keyTyped(jTextField4_4, evt, 3, 3);
     }//GEN-LAST:event_jTextField4_4KeyTyped
 
     private void jTextField4_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_5KeyTyped
-        keyTyped(jTextField4_5, evt);
+        keyTyped(jTextField4_5, evt, 3, 4);
     }//GEN-LAST:event_jTextField4_5KeyTyped
 
     private void jTextField4_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_6KeyTyped
-        keyTyped(jTextField4_6, evt);
+        keyTyped(jTextField4_6, evt, 3, 5);
     }//GEN-LAST:event_jTextField4_6KeyTyped
 
     private void jTextField4_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_7KeyTyped
-        keyTyped(jTextField4_7, evt);
+        keyTyped(jTextField4_7, evt, 3, 6);
     }//GEN-LAST:event_jTextField4_7KeyTyped
 
     private void jTextField4_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_8KeyTyped
-        keyTyped(jTextField4_8, evt);
+        keyTyped(jTextField4_8, evt, 3, 7);
     }//GEN-LAST:event_jTextField4_8KeyTyped
 
     private void jTextField4_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_9KeyTyped
-        keyTyped(jTextField4_9, evt);
+        keyTyped(jTextField4_9, evt, 3, 8);
     }//GEN-LAST:event_jTextField4_9KeyTyped
 
     private void jTextField9_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_2KeyTyped
-        keyTyped(jTextField9_2, evt);
+        keyTyped(jTextField9_2, evt, 8, 1);
     }//GEN-LAST:event_jTextField9_2KeyTyped
 
     private void jTextField9_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_1KeyTyped
-        keyTyped(jTextField9_1, evt);
+        keyTyped(jTextField9_1, evt, 8, 0);
     }//GEN-LAST:event_jTextField9_1KeyTyped
 
     private void jTextField9_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_3KeyTyped
-        keyTyped(jTextField9_3, evt);
+        keyTyped(jTextField9_3, evt, 8, 2);
     }//GEN-LAST:event_jTextField9_3KeyTyped
 
     private void jTextField9_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_4KeyTyped
-        keyTyped(jTextField9_4, evt);
+        keyTyped(jTextField9_4, evt, 8, 3);
     }//GEN-LAST:event_jTextField9_4KeyTyped
 
     private void jTextField9_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_5KeyTyped
-        keyTyped(jTextField9_5, evt);
+        keyTyped(jTextField9_5, evt, 8, 4);
     }//GEN-LAST:event_jTextField9_5KeyTyped
 
     private void jTextField9_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_6KeyTyped
-        keyTyped(jTextField9_6, evt);
+        keyTyped(jTextField9_6, evt, 8, 5);
     }//GEN-LAST:event_jTextField9_6KeyTyped
 
     private void jTextField9_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_7KeyTyped
-        keyTyped(jTextField9_7, evt);
+        keyTyped(jTextField9_7, evt, 8, 6);
     }//GEN-LAST:event_jTextField9_7KeyTyped
 
     private void jTextField9_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_8KeyTyped
-        keyTyped(jTextField9_8, evt);
+        keyTyped(jTextField9_8, evt, 8, 7);
     }//GEN-LAST:event_jTextField9_8KeyTyped
 
     private void jTextField9_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_9KeyTyped
-        keyTyped(jTextField9_9, evt);
+        keyTyped(jTextField9_9, evt, 8, 8);
     }//GEN-LAST:event_jTextField9_9KeyTyped
 
     private void jTextField3_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_2KeyTyped
-        keyTyped(jTextField3_2, evt);
+        keyTyped(jTextField3_2, evt, 2, 1);
     }//GEN-LAST:event_jTextField3_2KeyTyped
 
     private void jTextField3_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_3KeyTyped
-        keyTyped(jTextField3_3, evt);
+        keyTyped(jTextField3_3, evt, 2, 2);
     }//GEN-LAST:event_jTextField3_3KeyTyped
 
     private void jTextField3_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_4KeyTyped
-        keyTyped(jTextField3_4, evt);
+        keyTyped(jTextField3_4, evt, 2, 3);
     }//GEN-LAST:event_jTextField3_4KeyTyped
 
     private void jTextField3_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_5KeyTyped
-        keyTyped(jTextField3_5, evt);
+        keyTyped(jTextField3_5, evt, 2, 4);
     }//GEN-LAST:event_jTextField3_5KeyTyped
 
     private void jTextField3_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_6KeyTyped
-        keyTyped(jTextField3_6, evt);
+        keyTyped(jTextField3_6, evt, 2, 5);
     }//GEN-LAST:event_jTextField3_6KeyTyped
 
     private void jTextField3_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_7KeyTyped
-        keyTyped(jTextField3_7, evt);
+        keyTyped(jTextField3_7, evt, 2, 6);
     }//GEN-LAST:event_jTextField3_7KeyTyped
 
     private void jTextField3_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_8KeyTyped
-        keyTyped(jTextField3_8, evt);
+        keyTyped(jTextField3_8, evt, 2, 7);
     }//GEN-LAST:event_jTextField3_8KeyTyped
 
     private void jTextField3_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_9KeyTyped
-        keyTyped(jTextField3_9, evt);
+        keyTyped(jTextField3_9, evt, 2, 8);
     }//GEN-LAST:event_jTextField3_9KeyTyped
 
     private void jTextField6_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_2KeyTyped
-        keyTyped(jTextField6_2, evt);
+        keyTyped(jTextField6_2, evt, 5, 1);
     }//GEN-LAST:event_jTextField6_2KeyTyped
 
     private void jTextField6_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_1KeyTyped
-        keyTyped(jTextField6_1, evt);
+        keyTyped(jTextField6_1, evt, 5, 0);
     }//GEN-LAST:event_jTextField6_1KeyTyped
 
     private void jTextField6_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_3KeyTyped
-        keyTyped(jTextField6_3, evt);
+        keyTyped(jTextField6_3, evt, 5, 2);
     }//GEN-LAST:event_jTextField6_3KeyTyped
 
     private void jTextField6_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_4KeyTyped
-        keyTyped(jTextField6_4, evt);
+        keyTyped(jTextField6_4, evt, 5, 3);
     }//GEN-LAST:event_jTextField6_4KeyTyped
 
     private void jTextField6_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_5KeyTyped
-        keyTyped(jTextField6_5, evt);
+        keyTyped(jTextField6_5, evt, 5, 4);
     }//GEN-LAST:event_jTextField6_5KeyTyped
 
     private void jTextField6_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_6KeyTyped
-        keyTyped(jTextField6_6, evt);
+        keyTyped(jTextField6_6, evt, 5, 5);
     }//GEN-LAST:event_jTextField6_6KeyTyped
 
     private void jTextField6_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_7KeyTyped
-        keyTyped(jTextField6_7, evt);
+        keyTyped(jTextField6_7, evt, 5, 6);
     }//GEN-LAST:event_jTextField6_7KeyTyped
 
     private void jTextField6_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_8KeyTyped
-        keyTyped(jTextField6_8, evt);
+        keyTyped(jTextField6_8, evt, 5, 7);
     }//GEN-LAST:event_jTextField6_8KeyTyped
 
     private void jTextField6_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_9KeyTyped
-        keyTyped(jTextField6_9, evt);
+        keyTyped(jTextField6_9, evt, 5, 8);
     }//GEN-LAST:event_jTextField6_9KeyTyped
 
     private void jTextField2_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_2KeyTyped
-        keyTyped(jTextField2_2, evt);
+        keyTyped(jTextField2_2, evt, 1, 1);
     }//GEN-LAST:event_jTextField2_2KeyTyped
 
     private void jTextField2_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_1KeyTyped
-        keyTyped(jTextField2_1, evt);
+        keyTyped(jTextField2_1, evt, 1, 0);
     }//GEN-LAST:event_jTextField2_1KeyTyped
 
     private void jTextField2_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_3KeyTyped
-        keyTyped(jTextField2_3, evt);
+        keyTyped(jTextField2_3, evt, 1, 2);
     }//GEN-LAST:event_jTextField2_3KeyTyped
 
     private void jTextField2_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_4KeyTyped
-        keyTyped(jTextField2_4, evt);
+        keyTyped(jTextField2_4, evt, 1, 3);
     }//GEN-LAST:event_jTextField2_4KeyTyped
 
     private void jTextField2_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_5KeyTyped
-        keyTyped(jTextField2_5, evt);
+        keyTyped(jTextField2_5, evt, 1, 4);
     }//GEN-LAST:event_jTextField2_5KeyTyped
 
     private void jTextField2_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_6KeyTyped
-        keyTyped(jTextField2_6, evt);
+        keyTyped(jTextField2_6, evt, 1, 5);
     }//GEN-LAST:event_jTextField2_6KeyTyped
 
     private void jTextField2_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_7KeyTyped
-        keyTyped(jTextField2_7, evt);
+        keyTyped(jTextField2_7, evt, 1, 6);
     }//GEN-LAST:event_jTextField2_7KeyTyped
 
     private void jTextField2_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_8KeyTyped
-        keyTyped(jTextField2_8, evt);
+        keyTyped(jTextField2_8, evt, 1, 7);
     }//GEN-LAST:event_jTextField2_8KeyTyped
 
     private void jTextField2_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_9KeyTyped
-        keyTyped(jTextField2_9, evt);
+        keyTyped(jTextField2_9, evt, 1, 8);
     }//GEN-LAST:event_jTextField2_9KeyTyped
 
     private void jTextField7_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_2KeyTyped
-        keyTyped(jTextField7_2, evt);
+        keyTyped(jTextField7_2, evt, 6, 1);
     }//GEN-LAST:event_jTextField7_2KeyTyped
 
     private void jTextField7_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_1KeyTyped
-        keyTyped(jTextField7_1, evt);
+        keyTyped(jTextField7_1, evt, 6, 0);
     }//GEN-LAST:event_jTextField7_1KeyTyped
 
     private void jTextField7_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_3KeyTyped
-        keyTyped(jTextField7_3, evt);
+        keyTyped(jTextField7_3, evt, 6, 2);
     }//GEN-LAST:event_jTextField7_3KeyTyped
 
     private void jTextField7_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_4KeyTyped
-        keyTyped(jTextField7_4, evt);
+        keyTyped(jTextField7_4, evt, 6, 3);
     }//GEN-LAST:event_jTextField7_4KeyTyped
 
     private void jTextField7_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_5KeyTyped
-        keyTyped(jTextField7_5, evt);
+        keyTyped(jTextField7_5, evt, 6, 4);
     }//GEN-LAST:event_jTextField7_5KeyTyped
 
     private void jTextField7_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_6KeyTyped
-        keyTyped(jTextField7_6, evt);
+        keyTyped(jTextField7_6, evt, 6, 5);
     }//GEN-LAST:event_jTextField7_6KeyTyped
 
     private void jTextField7_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_7KeyTyped
-        keyTyped(jTextField7_7, evt);
+        keyTyped(jTextField7_7, evt, 6, 6);
     }//GEN-LAST:event_jTextField7_7KeyTyped
 
     private void jTextField7_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_8KeyTyped
-        keyTyped(jTextField7_8, evt);
+        keyTyped(jTextField7_8, evt, 6, 7);
     }//GEN-LAST:event_jTextField7_8KeyTyped
 
     private void jTextField7_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_9KeyTyped
-        keyTyped(jTextField7_9, evt);
+        keyTyped(jTextField7_9, evt, 6, 8);
     }//GEN-LAST:event_jTextField7_9KeyTyped
 
     private void jTextField5_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_2KeyTyped
-        keyTyped(jTextField5_2, evt);
+        keyTyped(jTextField5_2, evt, 4, 1);
     }//GEN-LAST:event_jTextField5_2KeyTyped
 
     private void jTextField5_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_1KeyTyped
-        keyTyped(jTextField5_1, evt);
+        keyTyped(jTextField5_1, evt, 4, 0);
     }//GEN-LAST:event_jTextField5_1KeyTyped
 
     private void jTextField5_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_3KeyTyped
-        keyTyped(jTextField5_3, evt);
+        keyTyped(jTextField5_3, evt, 4, 2);
     }//GEN-LAST:event_jTextField5_3KeyTyped
 
     private void jTextField5_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_4KeyTyped
-        keyTyped(jTextField5_4, evt);
+        keyTyped(jTextField5_4, evt, 4, 3);
     }//GEN-LAST:event_jTextField5_4KeyTyped
 
     private void jTextField5_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_5KeyTyped
-        keyTyped(jTextField5_5, evt);
+        keyTyped(jTextField5_5, evt, 4, 4);
     }//GEN-LAST:event_jTextField5_5KeyTyped
 
     private void jTextField5_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_6KeyTyped
-        keyTyped(jTextField5_6, evt);
+        keyTyped(jTextField5_6, evt, 4, 5);
     }//GEN-LAST:event_jTextField5_6KeyTyped
 
     private void jTextField5_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_7KeyTyped
-        keyTyped(jTextField5_7, evt);
+        keyTyped(jTextField5_7, evt, 4, 6);
     }//GEN-LAST:event_jTextField5_7KeyTyped
 
     private void jTextField5_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_8KeyTyped
-        keyTyped(jTextField5_8, evt);
+        keyTyped(jTextField5_8, evt, 4, 7);
     }//GEN-LAST:event_jTextField5_8KeyTyped
 
     private void jTextField5_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_9KeyTyped
-        keyTyped(jTextField5_9, evt);
+        keyTyped(jTextField5_9, evt, 4, 8);
     }//GEN-LAST:event_jTextField5_9KeyTyped
 
     private void jTextField3_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_1KeyTyped
-        keyTyped(jTextField3_1, evt);
+        keyTyped(jTextField3_1, evt, 2, 0);
     }//GEN-LAST:event_jTextField3_1KeyTyped
 
     private void jButtonDeshacerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDeshacerActionPerformed

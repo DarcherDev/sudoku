@@ -16,28 +16,37 @@ import javax.swing.JTextField;
  * @author Camilo Aristizabal B
  */
 public class Validaciones {
-    
+
     private ArrayList<Control> sudokus;
-    
-    public Validaciones(){
+
+    public Validaciones() {
         Interfaz interfaz = new Interfaz(this);
         sudokus = new ArrayList<Control>();
         Control primero = new Control();
         primero.cargarMatriz();
         sudokus.add(primero);
     }
-    
-    public void mostrarNumeros(JTextField[][] jtextfields){        
-        Control control = this.sudokus.get(this.sudokus.size()-1);
+
+    public void mostrarNumeros(JTextField[][] jtextfields) {
+        Control control = this.sudokus.get(this.sudokus.size() - 1);
         Matriz matriz = control.getMatrizOriginal();
-                
+
         for (int i = 0; i < control.getSIZE(); i++) {
             for (int j = 0; j < control.getSIZE(); j++) {
-                if(matriz.getMatriz()[i][j] > 0){
+                if (matriz.getMatriz()[i][j] > 0) {
                     jtextfields[i][j].setText(matriz.getSudokuString()[i][j]);
                 }
             }
         }
     }
-    
+
+    public boolean capturarNumero(int i, int j, int numero) {
+        Control control = this.sudokus.get(this.sudokus.size() - 1);
+        boolean validar = control.PosicionCorrecta(control.getMatrizOriginal().getMatriz(), numero, i, j);
+        if (validar) {
+            this.sudokus.add(control);
+            this.sudokus.get(this.sudokus.size() - 1).ingresarNumero(i, j, numero);
+        }
+        return validar;
+    }
 }

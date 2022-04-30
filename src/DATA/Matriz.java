@@ -10,17 +10,17 @@ package DATA;
  * @author Camilo Aristizabal B
  */
 public class Matriz {
-    
+
     private int size;
     private int matriz[][];
     private String SudokuString[][];
-    
+
     public Matriz(int size) {
         this.size = size;
         this.matriz = new int[size][size];
         this.SudokuString = new String[size][size];
     }
-    
+
     public void toStringMatriz() {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
@@ -28,6 +28,11 @@ public class Matriz {
             }
             System.out.println("");
         }
+        System.out.println("===========================");
+    }
+
+    public void setNumero(int i, int j, int numero) {
+        this.matriz[i][j] = numero;
     }
 
     public int getSize() {
@@ -53,5 +58,5 @@ public class Matriz {
     public void setSudokuString(String[][] SudokuString) {
         this.SudokuString = SudokuString;
     }
-    
+
 }

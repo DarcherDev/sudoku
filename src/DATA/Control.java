@@ -15,7 +15,7 @@ import static java.lang.Integer.SIZE;
 public class Control {
 
     private final int SIZE = 9;
-    
+
     private Matriz matrizOriginal;
     private Matriz matrizResuelta;
 
@@ -67,6 +67,28 @@ public class Control {
         if (!estaEnFila(matriz, numero, fila) && !estaEnColumna(matriz, numero, columna) && !estaEnel3x3(matriz, numero, columna, fila)) {
             resultado = true;
         }
+        return resultado;
+    }
+
+    public void ingresarNumero(int i, int j, int numero) {
+        this.matrizOriginal.setNumero(i, j, numero);
+    }
+
+    public boolean validarResultador() {
+        boolean resultado = true;
+        Matriz original = getMatrizOriginal();
+        Matriz resulta = getMatrizResuelta();
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                if (original.getMatriz()[i][j] != resulta.getMatriz()[i][j]) {
+                    resultado = false;
+                }
+            }
+        }
+
+        /**
+         * mostrar mensaje que ha ganado y dener juego
+         */
         return resultado;
     }
 
@@ -125,21 +147,28 @@ public class Control {
      * metodo que cargar el archivo txt para la matriz tipo String y llama al
      * meotodo convertirStringAInt()
      */
+    /**
+     * metodo que cargar el archivo txt para la matriz tipo String y llama al
+     * meotodo convertirStringAInt()
+     */
     public void cargarMatriz() {
         try {
+            //primero leemos el archivo y lo guardamos en las matrices
             this.matrizOriginal.setSudokuString(CargarMatriz.Leer(SIZE));
             this.matrizResuelta.setSudokuString(CargarMatriz.Leer(SIZE));
         } catch (IOException ex) {
-            
         }
-        
+
+        //convertimos la matriz de string a integger
         convertirStringAInt(this.matrizOriginal);
         convertirStringAInt(this.matrizResuelta);
+
+        //muestro en consola la matriz original tipo int
         matrizOriginal.toStringMatriz();
+
+        //resulevo la matriz y se muestra en consola
         validarSudoku(matrizResuelta.getMatriz());
-        System.out.println("====================");
         matrizResuelta.toStringMatriz();
-        System.out.println("====================");
     }
 
     public int getSIZE() {
