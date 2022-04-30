@@ -19,9 +19,5 @@ public class Validaciones {
         this.interfaz = interfaz;
     }
     
-    public void validar(){
-        //comentario violento
-        //comentario pasifico
-    }
     
 }
