@@ -5,7 +5,11 @@
  */
 package reglas;
 
+import DATA.Control;
+import DATA.Matriz;
 import GUI.Interfaz;
+import java.util.ArrayList;
+import javax.swing.JTextField;
 
 /**
  *
@@ -13,19 +17,27 @@ import GUI.Interfaz;
  */
 public class Validaciones {
     
-    private Interfaz interfaz;
-
-    public Validaciones(Interfaz interfaz) {
-        this.interfaz = interfaz;
+    private ArrayList<Control> sudokus;
+    
+    public Validaciones(){
+        Interfaz interfaz = new Interfaz(this);
+        sudokus = new ArrayList<Control>();
+        Control primero = new Control();
+        primero.cargarMatriz();
+        sudokus.add(primero);
     }
     
-    public void mostrarNumeros(){
-        for (int i = 0; i < this.interfaz.sudoku.getSIZE(); i++) {
-            for (int j = 0; j < this.interfaz.sudoku.getSIZE(); j++) {
-                if(this.interfaz.sudoku.getMatrizOriginal().getMatriz()[i][j] > 0){
-                    this.interfaz.matrizJTextField[i][j].setText(this.interfaz.sudoku.getMatrizOriginal().getSudokuString()[i][j]);
+    public void mostrarNumeros(JTextField[][] jtextfields){        
+        Control control = this.sudokus.get(this.sudokus.size()-1);
+        Matriz matriz = control.getMatrizOriginal();
+                
+        for (int i = 0; i < control.getSIZE(); i++) {
+            for (int j = 0; j < control.getSIZE(); j++) {
+                if(matriz.getMatriz()[i][j] > 0){
+                    jtextfields[i][j].setText(matriz.getSudokuString()[i][j]);
                 }
             }
         }
     }
+    
 }
