@@ -28,6 +28,7 @@ public class Interfaz extends javax.swing.JFrame {
     public Interfaz() {
         initComponents();
         sudoku = new Matriz();
+        agregarJTextField();
         this.setVisible(true);
     }
 
