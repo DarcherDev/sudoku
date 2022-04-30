@@ -91,12 +91,12 @@ public class Interfaz extends javax.swing.JFrame {
         matrizJTextField[5][0] = jTextField4_7;
         matrizJTextField[5][1] = jTextField4_8;
         matrizJTextField[5][2] = jTextField4_9;
-        matrizJTextField[5][3] = jTextField4_7;
-        matrizJTextField[5][4] = jTextField4_8;
-        matrizJTextField[5][5] = jTextField4_9;
-        matrizJTextField[5][6] = jTextField4_7;
-        matrizJTextField[5][7] = jTextField4_8;
-        matrizJTextField[5][8] = jTextField4_9;
+        matrizJTextField[5][3] = jTextField5_7;
+        matrizJTextField[5][4] = jTextField5_8;
+        matrizJTextField[5][5] = jTextField5_9;
+        matrizJTextField[5][6] = jTextField6_7;
+        matrizJTextField[5][7] = jTextField6_8;
+        matrizJTextField[5][8] = jTextField6_9;
         //====================================
         //====================================
         matrizJTextField[6][0] = jTextField7_1;

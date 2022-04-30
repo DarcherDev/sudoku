@@ -9,6 +9,7 @@ import DATA.Control;
 import DATA.Matriz;
 import GUI.Interfaz;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 /**
@@ -36,6 +37,8 @@ public class Validaciones {
                 if (matriz.getMatriz()[i][j] > 0) {
                     String numero = String.valueOf(matriz.getMatriz()[i][j]);
                     jtextfields[i][j].setText(numero);
+                }else{
+                    
                 }
             }
         }
@@ -44,12 +47,17 @@ public class Validaciones {
     public boolean capturarNumero(int i, int j, int numero) {
         boolean validar = false;
         Control control = this.sudokus.get(this.sudokus.size() - 1);
-        validar = control.PosicionCorrecta(control.getMatrizOriginal().getMatriz(), numero, i, j);
+        validar = control.PosicionCorrecta(control.getMatrizOriginal().getMatriz(), numero, j, i);
         System.out.println("valido un numero");
         if (validar) {
             System.out.println("numero validado es correcto");
             this.sudokus.add(control);
             this.sudokus.get(this.sudokus.size() - 1).ingresarNumero(i, j, numero);
+            
+            boolean resuelto = this.sudokus.get(this.sudokus.size() - 1).validarResultador();
+            if(resuelto){
+                JOptionPane.showMessageDialog(null, "a resuelto el sudoku");
+            }
         }
         return validar;
     }
