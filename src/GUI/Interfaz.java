@@ -1536,81 +1536,41 @@ public class Interfaz extends javax.swing.JFrame {
             evt.consume();
         }
     }
-    
+
     private void jTextField1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_2KeyTyped
         keyTyped(jTextField1_2, evt);
     }//GEN-LAST:event_jTextField1_2KeyTyped
 
     private void jTextField1_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_1, evt);
     }//GEN-LAST:event_jTextField1_1KeyTyped
 
     private void jTextField1_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_3, evt);
     }//GEN-LAST:event_jTextField1_3KeyTyped
 
     private void jTextField1_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_4, evt);
     }//GEN-LAST:event_jTextField1_4KeyTyped
 
     private void jTextField1_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_5, evt);
     }//GEN-LAST:event_jTextField1_5KeyTyped
 
     private void jTextField1_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_6, evt);
     }//GEN-LAST:event_jTextField1_6KeyTyped
 
     private void jTextField1_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_7, evt);
     }//GEN-LAST:event_jTextField1_7KeyTyped
 
     private void jTextField1_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_8, evt);
     }//GEN-LAST:event_jTextField1_8KeyTyped
 
     private void jTextField1_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField1_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField1_9, evt);
     }//GEN-LAST:event_jTextField1_9KeyTyped
 
     private void jButtonIniciarJuegoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIniciarJuegoActionPerformed
@@ -1618,655 +1578,291 @@ public class Interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonIniciarJuegoActionPerformed
 
     private void jTextField8_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_2, evt);
     }//GEN-LAST:event_jTextField8_2KeyTyped
 
     private void jTextField8_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_1, evt);
     }//GEN-LAST:event_jTextField8_1KeyTyped
 
     private void jTextField8_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_3, evt);
     }//GEN-LAST:event_jTextField8_3KeyTyped
 
     private void jTextField8_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_4, evt);
     }//GEN-LAST:event_jTextField8_4KeyTyped
 
     private void jTextField8_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_5, evt);
     }//GEN-LAST:event_jTextField8_5KeyTyped
 
     private void jTextField8_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_6, evt);
     }//GEN-LAST:event_jTextField8_6KeyTyped
 
     private void jTextField8_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_7, evt);
     }//GEN-LAST:event_jTextField8_7KeyTyped
 
     private void jTextField8_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_8, evt);
     }//GEN-LAST:event_jTextField8_8KeyTyped
 
     private void jTextField8_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField8_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField8_9, evt);
     }//GEN-LAST:event_jTextField8_9KeyTyped
 
     private void jTextField4_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_2, evt);
     }//GEN-LAST:event_jTextField4_2KeyTyped
 
     private void jTextField4_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_1, evt);
     }//GEN-LAST:event_jTextField4_1KeyTyped
 
     private void jTextField4_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_3, evt);
     }//GEN-LAST:event_jTextField4_3KeyTyped
 
     private void jTextField4_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_4, evt);
     }//GEN-LAST:event_jTextField4_4KeyTyped
 
     private void jTextField4_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_5, evt);
     }//GEN-LAST:event_jTextField4_5KeyTyped
 
     private void jTextField4_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_6, evt);
     }//GEN-LAST:event_jTextField4_6KeyTyped
 
     private void jTextField4_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_7, evt);
     }//GEN-LAST:event_jTextField4_7KeyTyped
 
     private void jTextField4_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_8, evt);
     }//GEN-LAST:event_jTextField4_8KeyTyped
 
     private void jTextField4_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField4_9.getText().length() == 1) {
-            evt.consume();
-        }
-        if (Character.isSpace(evt.getKeyChar())) {
-            evt.consume();
-        }
+        keyTyped(jTextField4_9, evt);
     }//GEN-LAST:event_jTextField4_9KeyTyped
 
     private void jTextField9_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_2, evt);
     }//GEN-LAST:event_jTextField9_2KeyTyped
 
     private void jTextField9_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_1, evt);
     }//GEN-LAST:event_jTextField9_1KeyTyped
 
     private void jTextField9_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_3, evt);
     }//GEN-LAST:event_jTextField9_3KeyTyped
 
     private void jTextField9_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_4, evt);
     }//GEN-LAST:event_jTextField9_4KeyTyped
 
     private void jTextField9_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_5, evt);
     }//GEN-LAST:event_jTextField9_5KeyTyped
 
     private void jTextField9_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_6, evt);
     }//GEN-LAST:event_jTextField9_6KeyTyped
 
     private void jTextField9_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_7, evt);
     }//GEN-LAST:event_jTextField9_7KeyTyped
 
     private void jTextField9_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_8, evt);
     }//GEN-LAST:event_jTextField9_8KeyTyped
 
     private void jTextField9_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField9_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField9_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField9_9, evt);
     }//GEN-LAST:event_jTextField9_9KeyTyped
 
     private void jTextField3_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_2, evt);
     }//GEN-LAST:event_jTextField3_2KeyTyped
 
     private void jTextField3_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_3, evt);
     }//GEN-LAST:event_jTextField3_3KeyTyped
 
     private void jTextField3_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_4, evt);
     }//GEN-LAST:event_jTextField3_4KeyTyped
 
     private void jTextField3_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_5, evt);
     }//GEN-LAST:event_jTextField3_5KeyTyped
 
     private void jTextField3_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_6, evt);
     }//GEN-LAST:event_jTextField3_6KeyTyped
 
     private void jTextField3_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_7, evt);
     }//GEN-LAST:event_jTextField3_7KeyTyped
 
     private void jTextField3_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_8, evt);
     }//GEN-LAST:event_jTextField3_8KeyTyped
 
     private void jTextField3_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_9KeyTyped
-
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_9, evt);
     }//GEN-LAST:event_jTextField3_9KeyTyped
 
     private void jTextField6_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_2, evt);
     }//GEN-LAST:event_jTextField6_2KeyTyped
 
     private void jTextField6_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_1, evt);
     }//GEN-LAST:event_jTextField6_1KeyTyped
 
     private void jTextField6_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_3, evt);
     }//GEN-LAST:event_jTextField6_3KeyTyped
 
     private void jTextField6_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_4, evt);
     }//GEN-LAST:event_jTextField6_4KeyTyped
 
     private void jTextField6_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_5, evt);
     }//GEN-LAST:event_jTextField6_5KeyTyped
 
     private void jTextField6_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_6, evt);
     }//GEN-LAST:event_jTextField6_6KeyTyped
 
     private void jTextField6_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_7, evt);
     }//GEN-LAST:event_jTextField6_7KeyTyped
 
     private void jTextField6_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_8, evt);
     }//GEN-LAST:event_jTextField6_8KeyTyped
 
     private void jTextField6_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField6_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField6_9, evt);
     }//GEN-LAST:event_jTextField6_9KeyTyped
 
     private void jTextField2_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_2, evt);
     }//GEN-LAST:event_jTextField2_2KeyTyped
 
     private void jTextField2_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_1, evt);
     }//GEN-LAST:event_jTextField2_1KeyTyped
 
     private void jTextField2_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_3, evt);
     }//GEN-LAST:event_jTextField2_3KeyTyped
 
     private void jTextField2_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_4, evt);
     }//GEN-LAST:event_jTextField2_4KeyTyped
 
     private void jTextField2_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_5, evt);
     }//GEN-LAST:event_jTextField2_5KeyTyped
 
     private void jTextField2_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_6, evt);
     }//GEN-LAST:event_jTextField2_6KeyTyped
 
     private void jTextField2_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_7, evt);
     }//GEN-LAST:event_jTextField2_7KeyTyped
 
     private void jTextField2_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_8, evt);
     }//GEN-LAST:event_jTextField2_8KeyTyped
 
     private void jTextField2_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField2_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField2_9, evt);
     }//GEN-LAST:event_jTextField2_9KeyTyped
 
     private void jTextField7_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_2, evt);
     }//GEN-LAST:event_jTextField7_2KeyTyped
 
     private void jTextField7_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_1, evt);
     }//GEN-LAST:event_jTextField7_1KeyTyped
 
     private void jTextField7_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_3, evt);
     }//GEN-LAST:event_jTextField7_3KeyTyped
 
     private void jTextField7_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_4, evt);
     }//GEN-LAST:event_jTextField7_4KeyTyped
 
     private void jTextField7_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_5, evt);
     }//GEN-LAST:event_jTextField7_5KeyTyped
 
     private void jTextField7_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_6, evt);
     }//GEN-LAST:event_jTextField7_6KeyTyped
 
     private void jTextField7_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_7, evt);
     }//GEN-LAST:event_jTextField7_7KeyTyped
 
     private void jTextField7_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_8, evt);
     }//GEN-LAST:event_jTextField7_8KeyTyped
 
     private void jTextField7_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField7_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField7_9, evt);
     }//GEN-LAST:event_jTextField7_9KeyTyped
 
     private void jTextField5_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_2KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_2.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_2, evt);
     }//GEN-LAST:event_jTextField5_2KeyTyped
 
     private void jTextField5_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_1, evt);
     }//GEN-LAST:event_jTextField5_1KeyTyped
 
     private void jTextField5_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_3KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_3.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_3, evt);
     }//GEN-LAST:event_jTextField5_3KeyTyped
 
     private void jTextField5_4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_4KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_4.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_4, evt);
     }//GEN-LAST:event_jTextField5_4KeyTyped
 
     private void jTextField5_5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_5KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_5.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_5, evt);
     }//GEN-LAST:event_jTextField5_5KeyTyped
 
     private void jTextField5_6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_6KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_6.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_6, evt);
     }//GEN-LAST:event_jTextField5_6KeyTyped
 
     private void jTextField5_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_7KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_7.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_7, evt);
     }//GEN-LAST:event_jTextField5_7KeyTyped
 
     private void jTextField5_8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_8KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_8.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_8, evt);
     }//GEN-LAST:event_jTextField5_8KeyTyped
 
     private void jTextField5_9KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5_9KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField5_9.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField5_9, evt);
     }//GEN-LAST:event_jTextField5_9KeyTyped
 
     private void jTextField3_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3_1KeyTyped
-        if (Character.isLetter(evt.getKeyChar())) {
-            evt.consume();
-        }
-        if (jTextField3_1.getText().length() == 1) {
-            evt.consume();
-        }
+        keyTyped(jTextField3_1, evt);
     }//GEN-LAST:event_jTextField3_1KeyTyped
 
     private void jButtonDeshacerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDeshacerActionPerformed
