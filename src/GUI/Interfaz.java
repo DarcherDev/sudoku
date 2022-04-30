@@ -136,10 +136,8 @@ public class Interfaz extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
-        btnReiniciar = new javax.swing.JButton();
-        btnStart = new javax.swing.JButton();
-        btnIntentar = new javax.swing.JButton();
-        btnCargarMatriz = new javax.swing.JButton();
+        jButtonIniciarJuego = new javax.swing.JButton();
+        jButtonDeshacer = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jTextField1_1 = new javax.swing.JTextField();
         jTextField1_2 = new javax.swing.JTextField();
@@ -230,40 +228,24 @@ public class Interfaz extends javax.swing.JFrame {
         jTextField9_7 = new javax.swing.JTextField();
         jTextField9_8 = new javax.swing.JTextField();
         jTextField9_9 = new javax.swing.JTextField();
+        jButtonRehacer = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnReiniciar.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        btnReiniciar.setText("Reiniciar");
-        btnReiniciar.addActionListener(new java.awt.event.ActionListener() {
+        jButtonIniciarJuego.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
+        jButtonIniciarJuego.setText("Iniciar Juego");
+        jButtonIniciarJuego.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jButtonIniciarJuego.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        jButtonIniciarJuego.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnReiniciarActionPerformed(evt);
+                jButtonIniciarJuegoActionPerformed(evt);
             }
         });
 
-        btnStart.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        btnStart.setText("Iniciar Juego");
-        btnStart.addActionListener(new java.awt.event.ActionListener() {
+        jButtonDeshacer.setText("←");
+        jButtonDeshacer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnStartActionPerformed(evt);
-            }
-        });
-
-        btnIntentar.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        btnIntentar.setText("Intentar");
-        btnIntentar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnIntentarActionPerformed(evt);
-            }
-        });
-
-        btnCargarMatriz.setFont(new java.awt.Font("Trebuchet MS", 0, 12)); // NOI18N
-        btnCargarMatriz.setText("Cargar Matriz");
-        btnCargarMatriz.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        btnCargarMatriz.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        btnCargarMatriz.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCargarMatrizActionPerformed(evt);
+                jButtonDeshacerActionPerformed(evt);
             }
         });
 
@@ -1473,6 +1455,13 @@ public class Interfaz extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        jButtonRehacer.setText("→");
+        jButtonRehacer.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonRehacerActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -1499,11 +1488,12 @@ public class Interfaz extends javax.swing.JFrame {
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnCargarMatriz)
-                    .addComponent(btnReiniciar)
-                    .addComponent(btnStart)
-                    .addComponent(btnIntentar))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButtonIniciarJuego)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButtonDeshacer)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButtonRehacer)))
+                .addContainerGap(12, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1521,19 +1511,16 @@ public class Interfaz extends javax.swing.JFrame {
                             .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnCargarMatriz)
+                                .addComponent(jButtonIniciarJuego)
                                 .addGap(18, 18, 18)
-                                .addComponent(btnReiniciar)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(btnStart))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButtonDeshacer)
+                                    .addComponent(jButtonRehacer))
+                                .addGap(41, 41, 41))
                             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(btnIntentar))
-                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, 0)
                         .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -1541,19 +1528,6 @@ public class Interfaz extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btnReiniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReiniciarActionPerformed
-
-    }//GEN-LAST:event_btnReiniciarActionPerformed
-
-    private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
-
-    }//GEN-LAST:event_btnStartActionPerformed
-
-    private void btnIntentarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntentarActionPerformed
-
-        this.sudoku.toStringMatriz();
-    }//GEN-LAST:event_btnIntentarActionPerformed
 
     private void jTextField1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
@@ -1636,11 +1610,10 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jTextField1_9KeyTyped
 
-    private void btnCargarMatrizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargarMatrizActionPerformed
-
+    private void jButtonIniciarJuegoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIniciarJuegoActionPerformed
         sudoku.cargarMatriz();
-
-    }//GEN-LAST:event_btnCargarMatrizActionPerformed
+        
+    }//GEN-LAST:event_jButtonIniciarJuegoActionPerformed
 
     private void jTextField8_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_2KeyTyped
         if (Character.isLetter(evt.getKeyChar())) {
@@ -2294,13 +2267,20 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jTextField3_1KeyTyped
 
+    private void jButtonDeshacerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDeshacerActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonDeshacerActionPerformed
+
+    private void jButtonRehacerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonRehacerActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonRehacerActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCargarMatriz;
-    private javax.swing.JButton btnIntentar;
-    private javax.swing.JButton btnReiniciar;
-    private javax.swing.JButton btnStart;
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JButton jButtonDeshacer;
+    private javax.swing.JButton jButtonIniciarJuego;
+    private javax.swing.JButton jButtonRehacer;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -2402,35 +2382,11 @@ public class Interfaz extends javax.swing.JFrame {
     }
 
     public JButton getBtnCargarMatriz() {
-        return btnCargarMatriz;
+        return jButtonIniciarJuego;
     }
 
     public void setBtnCargarMatriz(JButton btnCargarMatriz) {
-        this.btnCargarMatriz = btnCargarMatriz;
-    }
-
-    public JButton getBtnIntentar() {
-        return btnIntentar;
-    }
-
-    public void setBtnIntentar(JButton btnIntentar) {
-        this.btnIntentar = btnIntentar;
-    }
-
-    public JButton getBtnReiniciar() {
-        return btnReiniciar;
-    }
-
-    public void setBtnReiniciar(JButton btnReiniciar) {
-        this.btnReiniciar = btnReiniciar;
-    }
-
-    public JButton getBtnStart() {
-        return btnStart;
-    }
-
-    public void setBtnStart(JButton btnStart) {
-        this.btnStart = btnStart;
+        this.jButtonIniciarJuego = btnCargarMatriz;
     }
 
     public JPanel getjPanel1() {
