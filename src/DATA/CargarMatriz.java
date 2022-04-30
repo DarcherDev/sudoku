@@ -47,10 +47,8 @@ public class CargarMatriz {
                 numlinea++;
             }
             linea = lector.readLine();
-            
             // ya temenos la matriz en string y se guadar en la clase matriz
             sudoku.setSudokuString(SudokuString);
-
         } catch (IOException e) {
             e.printStackTrace();
         }
