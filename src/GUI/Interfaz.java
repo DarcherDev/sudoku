@@ -1528,13 +1528,17 @@ public class Interfaz extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_2KeyTyped
+    private void keyTyped(javax.swing.JTextField jTextField, java.awt.event.KeyEvent evt){
         if (Character.isLetter(evt.getKeyChar())) {
             evt.consume();
         }
-        if (jTextField1_2.getText().length() == 1) {
+        if (jTextField.getText().length() == 1) {
             evt.consume();
         }
+    }
+    
+    private void jTextField1_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_2KeyTyped
+        keyTyped(jTextField1_2, evt);
     }//GEN-LAST:event_jTextField1_2KeyTyped
 
     private void jTextField1_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1_1KeyTyped
