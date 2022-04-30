@@ -65,6 +65,7 @@ public class Control {
     public boolean PosicionCorrecta(int matriz[][], int numero, int columna, int fila) {
         boolean resultado = false;
         if (!estaEnFila(matriz, numero, fila) && !estaEnColumna(matriz, numero, columna) && !estaEnel3x3(matriz, numero, columna, fila)) {
+            System.out.println("numero valido >:V");
             resultado = true;
         }
         return resultado;
@@ -72,6 +73,7 @@ public class Control {
 
     public void ingresarNumero(int i, int j, int numero) {
         this.matrizOriginal.setNumero(i, j, numero);
+        this.matrizOriginal.toStringMatriz();
     }
 
     public boolean validarResultador() {

@@ -34,16 +34,20 @@ public class Validaciones {
         for (int i = 0; i < control.getSIZE(); i++) {
             for (int j = 0; j < control.getSIZE(); j++) {
                 if (matriz.getMatriz()[i][j] > 0) {
-                    jtextfields[i][j].setText(matriz.getSudokuString()[i][j]);
+                    String numero = String.valueOf(matriz.getMatriz()[i][j]);
+                    jtextfields[i][j].setText(numero);
                 }
             }
         }
     }
 
     public boolean capturarNumero(int i, int j, int numero) {
+        boolean validar = false;
         Control control = this.sudokus.get(this.sudokus.size() - 1);
-        boolean validar = control.PosicionCorrecta(control.getMatrizOriginal().getMatriz(), numero, i, j);
+        validar = control.PosicionCorrecta(control.getMatrizOriginal().getMatriz(), numero, i, j);
+        System.out.println("valido un numero");
         if (validar) {
+            System.out.println("numero validado es correcto");
             this.sudokus.add(control);
             this.sudokus.get(this.sudokus.size() - 1).ingresarNumero(i, j, numero);
         }
