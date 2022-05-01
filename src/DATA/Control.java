@@ -2,6 +2,7 @@ package DATA;
 
 import java.io.IOException;
 import static java.lang.Integer.SIZE;
+import java.util.Objects;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -23,8 +24,12 @@ public class Control {
         matrizOriginal = new Matriz(SIZE);
         matrizResuelta = new Matriz(SIZE);
     }
-
-    public Control(int[][] matriz) {
+    
+    public Control clone() {
+        Control c = new Control();
+        c.setMatrizOriginal(this.matrizOriginal.clone());
+        c.setMatrizResuelta(this.matrizResuelta.clone());
+        return c;
     }
 
     //esto es para verificar si ya esta ese numero en la fila
@@ -62,7 +67,7 @@ public class Control {
     }
 
     //para saber si el numero colocado es correcto
-    public boolean PosicionCorrecta(int matriz[][], int numero, int columna, int fila) {
+    public boolean posicionCorrecta(int matriz[][], int numero, int columna, int fila) {
         boolean resultado = false;
         if (!estaEnFila(matriz, numero, fila) && !estaEnColumna(matriz, numero, columna) && !estaEnel3x3(matriz, numero, columna, fila)) {
             resultado = true;
@@ -72,7 +77,8 @@ public class Control {
 
     public void ingresarNumero(int i, int j, int numero) {
         this.matrizOriginal.setNumero(i, j, numero);
-        this.matrizOriginal.toStringMatriz();
+//        this.matrizOriginal.getMatriz()[i][j] = numero;
+//        this.matrizOriginal.toStringMatriz();
     }
 
     public boolean validarResultador() {
@@ -101,7 +107,7 @@ public class Control {
             for (int columna = 0; columna < SIZE; columna++) {
                 if (matriz[fila][columna] == 0) {
                     for (int numero = 1; numero <= SIZE; numero++) {
-                        if (PosicionCorrecta(matriz, numero, columna, fila)) {
+                        if (posicionCorrecta(matriz, numero, columna, fila)) {
                             matriz[fila][columna] = numero;
                             if (validarSudoku(matriz)) {
                                 return true;
@@ -161,11 +167,46 @@ public class Control {
         convertirStringAInt(this.matrizResuelta);
 
         //muestro en consola la matriz original tipo int
-        matrizOriginal.toStringMatriz();
+//        matrizOriginal.toStringMatriz();
 
         //resulevo la matriz y se muestra en consola
         validarSudoku(matrizResuelta.getMatriz());
-        matrizResuelta.toStringMatriz();
+//        matrizResuelta.toStringMatriz();
+    }
+    
+    
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 59 * hash + this.SIZE;
+        hash = 59 * hash + Objects.hashCode(this.matrizOriginal);
+        hash = 59 * hash + Objects.hashCode(this.matrizResuelta);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Control other = (Control) obj;
+        if (this.SIZE != other.SIZE) {
+            return false;
+        }
+        if (!Objects.equals(this.matrizOriginal, other.matrizOriginal)) {
+            return false;
+        }
+        if (!Objects.equals(this.matrizResuelta, other.matrizResuelta)) {
+            return false;
+        }
+        return true;
     }
 
     public int getSIZE() {

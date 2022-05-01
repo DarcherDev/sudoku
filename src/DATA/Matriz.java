@@ -5,9 +5,11 @@
  */
 package DATA;
 
+import java.util.Arrays;
+
 /**
  *
- * @author Camilo Aristizabal B
+ * @author usuario
  */
 public class Matriz {
 
@@ -19,6 +21,13 @@ public class Matriz {
         this.size = size;
         this.matriz = new int[size][size];
         this.SudokuString = new String[size][size];
+    }
+
+    public Matriz clone(){
+        Matriz m = new Matriz(this.size);
+        m.setMatriz(this.matriz.clone());
+        m.setSudokuString(this.SudokuString.clone());
+        return m;
     }
 
     public void toStringMatriz() {
