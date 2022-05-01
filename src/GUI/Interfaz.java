@@ -22,6 +22,8 @@ public class Interfaz extends javax.swing.JFrame {
     public JTextField matrizJTextField[][] = new JTextField[9][9];
     private Validaciones validaciones;
 
+    public int posicion;
+    
     /**
      * Creates new form intefaz
      */
@@ -30,6 +32,7 @@ public class Interfaz extends javax.swing.JFrame {
         agregarJTextField();
         this.setVisible(true);
         this.validaciones = validaciones;
+        this.posicion = 0;
     }
 
     /**
@@ -142,6 +145,7 @@ public class Interfaz extends javax.swing.JFrame {
         buttonGroup1 = new javax.swing.ButtonGroup();
         jButtonIniciarJuego = new javax.swing.JButton();
         jButtonDeshacer = new javax.swing.JButton();
+        jButtonRehacer = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jTextField1_1 = new javax.swing.JTextField();
         jTextField1_2 = new javax.swing.JTextField();
@@ -232,7 +236,6 @@ public class Interfaz extends javax.swing.JFrame {
         jTextField9_7 = new javax.swing.JTextField();
         jTextField9_8 = new javax.swing.JTextField();
         jTextField9_9 = new javax.swing.JTextField();
-        jButtonRehacer = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -250,6 +253,13 @@ public class Interfaz extends javax.swing.JFrame {
         jButtonDeshacer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonDeshacerActionPerformed(evt);
+            }
+        });
+
+        jButtonRehacer.setText("→");
+        jButtonRehacer.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonRehacerActionPerformed(evt);
             }
         });
 
@@ -1459,13 +1469,6 @@ public class Interfaz extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jButtonRehacer.setText("→");
-        jButtonRehacer.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonRehacerActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -1557,9 +1560,10 @@ public class Interfaz extends javax.swing.JFrame {
             boolean validar = validaciones.capturarNumero(i, j, num);
 
             if (validar == true) {
-                validaciones.mostrarNumeros(matrizJTextField);
+                posicion++;
+                validaciones.mostrarNumeros(matrizJTextField, posicion);
             } else if(validar == false) {
-                JOptionPane.showMessageDialog(rootPane, "ingreso un numero no valido");
+                JOptionPane.showMessageDialog(rootPane, "numero repetido, ingreso un numero no valido");
                 matrizJTextField[i][j].setText("");
             }
         } catch (NumberFormatException e) {
@@ -1604,7 +1608,7 @@ public class Interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1_9KeyTyped
 
     private void jButtonIniciarJuegoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIniciarJuegoActionPerformed
-        validaciones.mostrarNumeros(matrizJTextField);
+        validaciones.mostrarNumeros(matrizJTextField, posicion);
     }//GEN-LAST:event_jButtonIniciarJuegoActionPerformed
 
     private void jTextField8_2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8_2KeyTyped
@@ -1752,7 +1756,7 @@ public class Interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField6_2KeyTyped
 
     private void jTextField6_1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_1KeyTyped
-        keyTyped(jTextField6_1, evt, 3, 7);
+        keyTyped(jTextField6_1, evt, 3, 6);
     }//GEN-LAST:event_jTextField6_1KeyTyped
 
     private void jTextField6_3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6_3KeyTyped
@@ -1897,10 +1901,13 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButtonDeshacerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDeshacerActionPerformed
         // TODO add your handling code here:
+        posicion--;
+        validaciones.deshacer(posicion);
     }//GEN-LAST:event_jButtonDeshacerActionPerformed
 
     private void jButtonRehacerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonRehacerActionPerformed
         // TODO add your handling code here:
+        validaciones.rehacer();
     }//GEN-LAST:event_jButtonRehacerActionPerformed
 
 
